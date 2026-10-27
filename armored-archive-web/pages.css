@@ -1,0 +1,6 @@
+/* Unavailable controls are retained in the DOM for the original renderers. */
+html[data-edition="pages"] #opponentPick,
+html[data-edition="pages"] .pages-unavailable {
+  display: none !important;
+}
+html[data-edition="pages"] #pa3d { margin-top: 16px; }

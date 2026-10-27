@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
+    "build:pages": "node scripts/build-pages.cjs",
+    "test:pages": "node --test tests/pages.test.cjs",
     "test": "node tests/combat_engine.test.cjs && node tests/gallery_matching.test.cjs && node tests/gallery_pipeline.test.cjs && node tests/curated_library.test.cjs && node tests/display_policy.test.cjs && node tests/video_frames.test.cjs && node tests/armor_model.test.cjs && node tests/mesh_armor.test.cjs && node tests/pa_engine.test.cjs && node tests/pa_figures.test.cjs && node tests/pa_gamemodel.test.cjs && node tests/br_opponents.test.cjs && node tests/vehicle_history.test.cjs"
   },
   "description": "Standalone Node.js backend for Armored Archive"
