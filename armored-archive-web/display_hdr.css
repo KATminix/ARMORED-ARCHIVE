@@ -1,0 +1,8 @@
+/* Automatic OLED surfaces and HDR media; SDR appearance is untouched. */
+.hdrMediaFrame{position:relative;line-height:0}.hdrMediaFrame>canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;border-radius:8px}.hdrMediaFrame video+canvas{clip-path:inset(0 0 44px 0);border-radius:4px}
+.hdrMediaFrame>img{display:block}.hdrMediaFrame video{max-width:100%}
+html[data-display-hdr=active]{color-scheme:dark;--bg:#050609;--panel:rgba(15,18,24,.96);--surface:#181c24;--surface-hover:#252b35;--panel2:rgba(255,255,255,.035);--text:#f5f6fa;--muted:#b1b9ca;--line:rgba(255,255,255,.085);--accent:#99caff;--accent-fill:#78b9ff;--accent-text:#112c47;--accent-soft:rgba(117,179,248,.13);--red:#ffb4b0;--green:#91d8b0;--blue:#a5cfff;--header:rgba(8,10,14,.94);--hero:linear-gradient(135deg,#131e2d,#141722);--backdrop:none;--control-border:rgba(255,255,255,.13);--bottom-border:rgba(255,255,255,.24)}
+html[data-display-hdr=active] .hero{background:#050609}
+html[data-display-hdr=active] #theme{display:none}
+
+@media(max-width:650px){.hdrMediaFrame video+canvas{clip-path:inset(0 0 40px 0)}}

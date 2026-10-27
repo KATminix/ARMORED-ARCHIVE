@@ -1,0 +1,131 @@
+/* 3D protection analysis panel — uses the Fluent tokens from fluent.css (light and dark). */
+#pa3d .paBadge{font-size:11px;font-weight:600;color:var(--accent);background:var(--accent-soft);border-radius:999px;padding:3px 10px;margin-left:8px;vertical-align:middle}
+.paLayout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:20px;align-items:start}
+.paMain{min-width:0}
+.paToolbar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-bottom:10px}
+.paSeg{display:inline-flex;border:1px solid var(--control-border);border-radius:6px;overflow:hidden;background:var(--surface)}
+.paSeg button{border:0;background:transparent;color:var(--text);font:inherit;font-size:12px;padding:7px 11px;min-height:34px;border-right:1px solid var(--line)}
+.paSeg button:last-child{border-right:0}.paSeg button:hover{background:var(--surface-hover)}
+.paSeg button.on{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.paInline{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:var(--muted)}
+.paInline select,.paOpts select,.paOpts input[type=number]{min-height:34px;border:1px solid var(--control-border);border-bottom-color:var(--bottom-border);border-radius:4px;background:var(--surface);color:var(--text);font:inherit;font-size:13px;padding:5px 8px}
+.paViewport{position:relative;height:560px;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:radial-gradient(ellipse at 50% 35%,#2f3a4d,#181c24 75%)}
+:root[data-theme=light] .paViewport,html.light .paViewport{background:radial-gradient(ellipse at 50% 35%,#3a465a,#1d222c 75%)}
+.paViewport canvas{position:absolute;inset:0;display:block}
+#paOverlay{cursor:crosshair;touch-action:none;outline:none}
+#paOverlay:focus-visible{box-shadow:inset 0 0 0 2px var(--accent-fill)}
+.paStatus{position:absolute;left:16px;bottom:14px;font-size:12px;color:#d7deea;background:rgba(14,17,23,.7);padding:6px 10px;border-radius:6px}
+.paStatus[hidden],.paHud[hidden],.paLegend[hidden]{display:none}
+.paHud{position:absolute;pointer-events:none;max-width:230px;font-size:11.5px;line-height:1.5;color:#e9edf5;background:rgba(14,17,23,.86);border:1px solid rgba(255,255,255,.12);border-radius:6px;padding:8px 10px;box-shadow:0 6px 20px #0006}
+.paHud b{display:block;font-size:12px;margin-bottom:2px;overflow-wrap:anywhere}
+.paHudV{font-weight:700;margin-top:4px}.paHudV.penetration{color:#7fe0a0}.paHudV.no-penetration{color:#ff9b8f}.paHudV.ricochet,.paHudV.unresolved,.paHudV.unsupported{color:#f5d36b}
+.paLegend{position:absolute;right:12px;bottom:12px;display:flex;gap:10px;flex-wrap:wrap;font-size:11px;color:#e3e8f1;background:rgba(14,17,23,.72);padding:6px 10px;border-radius:6px}
+.paLegend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.paLegend .pen::before{background:#56cc78}.paLegend .pos::before{background:#f0c440}.paLegend .nop::before{background:#e2544a}.paLegend .unk::before{background:#9696aa}
+.paSide{display:flex;flex-direction:column;gap:14px;min-width:0}
+.paVerdict{padding:14px 16px;border-radius:8px;background:var(--panel2);border:1px solid var(--line);border-left:4px solid var(--muted)}
+.paVerdict b{display:block;font-size:20px;font-weight:650;line-height:1.3}.paVerdict span{display:block;font-size:13px;color:var(--text);margin-top:4px}.paVerdict small{display:block;font-size:11px;color:var(--muted);margin-top:6px;line-height:1.6}
+.paVerdict.pen{border-left-color:#3fb868}.paVerdict.nop{border-left-color:#e2544a}.paVerdict.pos{border-left-color:#e3b23c}
+.paShell{font-size:12px;line-height:1.6;color:var(--text)}.paShell small{color:var(--muted)}
+.paOpts{display:grid;grid-template-columns:1fr 1fr;gap:10px 12px;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--panel2)}
+.paOpts label{display:flex;flex-direction:column;gap:5px;font-size:11px;color:var(--muted);font-weight:500;min-width:0}
+.paOpts .paCheck{grid-column:1/-1;flex-direction:row;align-items:center;gap:8px;font-size:12px;color:var(--text)}
+.paOpts #paReset{grid-column:1/-1}
+.paRow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.paRow input{width:100%;min-width:0;flex:1}
+.paMC{font-size:12px}.paMC>b{display:block;margin-bottom:8px}
+.paStat{display:grid;grid-template-columns:118px 1fr 42px;gap:8px;align-items:center;margin:5px 0;font-size:12px}.paStat b{text-align:right;font-variant-numeric:tabular-nums}
+.paBar{height:8px;border-radius:4px;background:var(--line);overflow:hidden}.paBar i{display:block;height:100%;background:var(--accent-fill)}
+.paBar.pen i{background:#3fb868}.paBar.pos i{background:#e3b23c}.paBar.bad i{background:#e2544a}
+.paTop{margin:4px 0 0;padding-left:18px}.paTop li{margin:2px 0}
+.paReplay{display:flex;flex-direction:column;gap:8px;font-size:12px;padding:12px;border:1px solid var(--line);border-radius:8px}
+.paReplay .paCheck{display:flex;gap:8px;align-items:center;color:var(--muted)}
+.paFile{position:relative;overflow:hidden;font-size:13px}.paFile input{position:absolute;inset:0;opacity:0;cursor:pointer}
+.paReplay .btn{font-size:12px;padding:6px 10px;min-height:32px}
+.paTable{width:100%;min-width:720px}.paTable td small{color:var(--muted)}
+.paTable tr.st-stopped td,.paTable tr.st-gap td{background:rgba(226,84,74,.08)}.paTable tr.st-ricochet td{background:rgba(227,178,60,.10)}.paTable tr.st-unresolved td{background:rgba(150,150,170,.12)}
+#paModel td.ok{color:var(--green)}#paModel td.pos{color:var(--text)}#paModel td.warn{color:var(--red)}
+.paCols{display:grid;grid-template-columns:1fr 1fr;gap:16px}.paCols ul{margin:6px 0 0;padding-left:18px;font-size:12px}
+@media(max-width:1100px){.paLayout{grid-template-columns:1fr}.paSide{display:grid;grid-template-columns:1fr 1fr;gap:14px}.paSide>.paVerdict,.paSide>.paShell{grid-column:1/-1}}
+@media(max-width:600px){.paViewport{height:380px}.paSide{display:flex}.paOpts{grid-template-columns:1fr 1fr}.paCols{grid-template-columns:1fr}.paToolbar{gap:8px}.paSeg button{padding:6px 8px;font-size:11px}.paStat{grid-template-columns:100px 1fr 38px}}
+.paTable th,.paTable td{text-align:left;vertical-align:top}.paTable td:nth-child(n+3),.paTable th:nth-child(n+3){text-align:right}#paModel .paTable td,#paModel .paTable th{text-align:left}
+.paMain>.layerInventory{margin-top:14px}
+@media(max-width:1100px){.paMain{display:contents}.paLayout{display:flex;flex-direction:column;align-items:stretch;gap:12px}.paMain>.layerInventory{order:3;margin-top:0}.paSide{order:2}.paMain>*{min-width:0}}
+.paLegend.paHide{display:none}
+.paInline[hidden]{display:none}
+#paGame code{font-size:11px;overflow-wrap:anywhere}#paGame .paRow{max-width:640px}
+/* Inspect mode: in-game style part card and the inspector panel */
+.paHud.inspect{max-width:340px;font-size:12.5px;line-height:1.45;padding:10px 12px;background:rgba(38,46,58,.94);border-color:rgba(255,255,255,.16)}
+.paHud .paHudT{font-size:14px;font-weight:600;margin-bottom:4px}
+.paHud .paHudSub{color:#c9d2df;margin-top:2px}.paHud .paHudDim{color:#9aa6b6;font-size:11px;margin-top:5px}
+.paHud .paHudList{margin:2px 0 0;padding-left:16px}.paHud .paHudList li{margin:1px 0}
+.paHud .paHudSt{margin-top:5px;font-weight:600}.paHud .paHudSt.dead{color:#ff8f84}.paHud .paHudSt.dmg{color:#f5c86b}
+.paInspect{padding:14px 16px;border-radius:8px;background:var(--panel2);border:1px solid var(--line);border-left:4px solid var(--accent-fill);font-size:12px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.paInspect[hidden]{display:none}
+.paInsHead{display:flex;align-items:center;justify-content:space-between;gap:8px}.paInsHead b{font-size:16px;font-weight:650;line-height:1.3}
+.paInsHead .btn{font-size:12px;padding:5px 9px;min-height:30px;white-space:nowrap}
+.paDl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:0}.paDl dt{color:var(--muted)}.paDl dd{margin:0;overflow-wrap:anywhere}.paDl small{color:var(--muted)}.paDl code{font-size:11px}
+.paSt.dead{color:var(--red)}.paSt.dmg{color:#c98a12}
+.paInsSub{font-weight:600}
+.paInsTable{min-width:0;font-size:11.5px}.paInsTable tr{cursor:pointer}.paInsTable tr.on td{background:var(--accent-soft)}
+.paInsTable tr.st-dead td:first-child{color:var(--red)}.paInsTable tr.st-dmg td:first-child{color:#c98a12}
+.paInsAll summary{cursor:pointer;font-weight:600}.paInsCat{margin:10px 0 5px;font-weight:600;display:flex;align-items:center;gap:6px}.paInsCat small{color:var(--muted);font-weight:400}
+.paSw{width:10px;height:10px;border-radius:2px;display:inline-block}
+.paInsChips{display:flex;flex-wrap:wrap;gap:4px}
+.paChip{border:1px solid var(--control-border);background:var(--surface);color:var(--text);font:inherit;font-size:11px;border-radius:999px;padding:3px 9px;cursor:pointer}
+.paChip:hover{background:var(--surface-hover)}.paChip.on{background:var(--accent-soft);color:var(--accent);border-color:var(--accent-fill)}
+.paChip.dead{color:var(--red);text-decoration:line-through}.paChip.dmg{color:#c98a12}
+#pa3d.paInspecting #paOverlay{cursor:help}
+#paInspect .paInsTable{min-width:0;width:100%}#paInspect .scroll{max-height:300px;overflow:auto}
+.paInsTable td,.paInsTable th{padding:5px 6px}.paInsTable td small{display:block;color:var(--muted);font-size:10.5px}
+.paInsTable td:nth-child(n+2),.paInsTable th:nth-child(n+2){text-align:right;white-space:nowrap}
+.paHud .paHudFacts{display:grid;gap:2px;margin-top:3px}.paHud .paHudFacts span{color:#9aa6b6}
+.paPick{align-self:flex-start}.paPick button{font-size:11px;padding:5px 9px;min-height:28px}
+.paInsComp{margin:0;padding-left:16px}.paInsComp li{margin:1px 0}.paInsTable tr.xr td{font-style:italic}
+.paHud .paHudSec{margin-top:7px;padding-top:6px;border-top:1px solid rgba(255,255,255,.12);color:#c9d2df;font-weight:600;font-size:11.5px}
+/* game-style cards: slate panel, light text */
+.paHud.inspect{background:rgba(50,60,72,.90);border:1px solid rgba(255,255,255,.10);border-radius:3px;color:#e6ebf1;font-size:13px;box-shadow:0 8px 24px #0007}
+.paHud.inspect .paHudT{font-weight:500;font-size:15px;letter-spacing:.1px}
+.paHud.inspect .paHudFacts span{color:#aeb8c4}.paHud.armorCard .paHudFacts{font-size:13.5px;gap:3px;margin-top:6px}
+.paHud .paHudShot{margin-top:7px;padding-top:6px;border-top:1px solid rgba(255,255,255,.12);font-size:12px}.paHud .paHudShot small{color:#9aa6b6}
+/* X-ray part filter */
+.paFilter{position:relative}.paFilterBtn{font-size:12px;min-height:34px;padding:6px 11px}
+.paFilterMenu{position:absolute;z-index:30;top:calc(100% + 6px);left:0;min-width:250px;padding:8px 10px;background:rgba(28,33,41,.97);border:1px solid rgba(255,255,255,.14);border-radius:6px;box-shadow:0 10px 28px #0008;color:#e6ebf1;font-size:13px}
+.paFilterMenu[hidden]{display:none}
+.paFilterMenu label{display:flex;align-items:center;gap:8px;padding:6px 4px;cursor:pointer;border-radius:4px}.paFilterMenu label:hover{background:rgba(255,255,255,.06)}
+.paFilterMenu label input{margin-left:auto;width:16px;height:16px}.paFilterMenu .paFAll{justify-content:center;border:1px solid rgba(255,255,255,.18);margin-bottom:6px;font-weight:600}
+.paFilterMenu .paFAll input{margin-left:0;order:-1}
+.paInsBar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.paView button{font-size:11px;padding:5px 9px;min-height:28px}
+/* path-traced image sits between the WebGL view and the overlay (hover cards, markers) */
+.paViewport canvas.paPT{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.paPTBox{display:flex;flex-direction:column;gap:8px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.paPTBox .paRow{gap:8px}.paPTBox select{min-height:30px;border:1px solid var(--control-border);border-radius:4px;background:var(--surface);color:var(--text);font:inherit;font-size:12px;padding:3px 6px}
+.paPTStat{font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums;min-height:1.4em}
+/* fullscreen viewport */
+.paFsBar{position:absolute;top:10px;right:10px;z-index:5;display:flex;gap:8px;align-items:center}
+.paFsBar #paFsStat{font-size:12px;color:#e9edf5;background:rgba(14,17,23,.62);padding:5px 10px;border-radius:6px;font-variant-numeric:tabular-nums}.paFsBar #paFsStat:empty{display:none}
+.paFsBtn{border:1px solid rgba(255,255,255,.18);background:rgba(14,17,23,.62);color:#eef2f7;font:inherit;font-size:13px;min-width:34px;height:32px;padding:0 10px;border-radius:6px;cursor:pointer}
+.paFsBtn:hover{background:rgba(14,17,23,.82)}.paFsBtn[hidden]{display:none}
+.paViewport.paFs,.paViewport:fullscreen{height:100vh;width:100vw;border-radius:0;border:0}
+.paViewport.paFs .paFsBar{opacity:.25;transition:opacity .2s}.paViewport.paFs:hover .paFsBar,.paViewport.paFs .paFsBar:focus-within{opacity:1}
+/* window-filling fallback when the browser refuses real fullscreen */
+.paViewport.paFsWin{position:fixed;inset:0;z-index:2147483000;height:100vh;width:100vw;border-radius:0;border:0;margin:0}
+html.paFsLock,html.paFsLock body{overflow:hidden}
+.paFsPT{display:inline-flex;gap:6px}.paFsPT[hidden]{display:none}
+.paFsSel{height:32px;border:1px solid rgba(255,255,255,.18);border-radius:6px;background:rgba(14,17,23,.62);color:#eef2f7;font:inherit;font-size:12.5px;padding:0 8px;cursor:pointer}
+.paFsSel:hover,.paFsSel:focus{background:rgba(14,17,23,.86);outline:none}.paFsSel option{background:#1b2028;color:#eef2f7}
+.paViewport.paFs .paFsBar{flex-wrap:wrap;justify-content:flex-end;max-width:calc(100% - 20px)}
+/* path tracer debug overlay (ray paths of one pixel) */
+.paViewport canvas.paPTDbg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:3;display:none}
+/* fullscreen dock: toolbar across the top, Inspect panel down the right; "Options" hides both */
+.paFsDock{display:none}
+.paViewport.paFs .paFsDock{display:block;position:absolute;inset:0;pointer-events:none;z-index:4}
+.paViewport.paFs.paFsNoDock .paFsDock{display:none}
+.paFsTop{position:absolute;top:10px;left:10px;max-width:calc(100% - 420px);pointer-events:auto;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:8px 10px;box-shadow:0 6px 24px rgba(0,0,0,.28)}
+.paFsTop:empty{display:none}.paFsTop .paToolbar{margin:0}
+.paFsSide{position:absolute;top:64px;right:10px;bottom:10px;width:min(380px,40vw);overflow:auto;pointer-events:auto}
+.paFsSide:empty,.paFsSide:has(> .paInspect[hidden]){display:none}
+.paFsSide .paInspect{box-shadow:0 6px 24px rgba(0,0,0,.28)}
+.paViewport.paFs .paFsBar{opacity:1}
+@media(max-width:900px){.paFsTop{max-width:calc(100% - 20px);top:52px}.paFsSide{top:auto;height:45vh;width:calc(100% - 20px)}}
+.paViewport.paFs:not(.paFsNoDock) .paFsBar #paFsStat,.paViewport.paFs:not(.paFsNoDock) .paFsBar #paFsSave{display:none}
+.paPTBox.paPTLocked .paRow,.paPTBox.paPTLocked #paPTDbgInfo,.paPTBox.paPTLocked #paPTStat{display:none}

@@ -1,0 +1,6540 @@
+{
+  "checked": "2026-10-10",
+  "source": "https://displayhdr.org/certified-products/",
+  "models": [
+    {
+      "model": "Model",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG275UXM2",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG327UXM",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC PD32M",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PA32UCXR",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ProArt PA32UCG",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Swift PG32UQX",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG34WCDMTG",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "FFALCON R32U81",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Hisense 27G7K-Ultra",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC AG25Q360B",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC G27M4",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC Pilot M8",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC Pilot M9",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC T7000 Ultra",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC XG272U MAX",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Innocn M27A6V-P",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "I-O DATA DEVICE INC. GDU271JLAQD",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Jupiter Systems PANA105X",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 27B1U7903",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 32M2N6800MD",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 34M2C7600MV",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Planar Systems 21by9 94",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Planar Systems 21by9 94T",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Planar Systems 21by9 105",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Planar Systems 21by9 105T",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Shenzhen KTC Technology Co., Ltd. M27P6",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Shenzhen KTC Technology Co., Ltd. M27T6",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TITAN ARMY 2751V PRO",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TTE Corporation 27C3A Pro",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TTE Corporation 27U8A Pro",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TTE Corporation 32C3A Pro",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TTE Corporation R27U81",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TTE Corporation R27U91",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TTE Corporation R34Q81",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Viewsonic XG321UG",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Viewsonic XG341C-2K",
+      "tier": 1400,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Model",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer CG437K P",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer ConceptD CP7271K P",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer PH16-71",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer PH18-71",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Helios 16",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Helios 18",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Helios 18 AI",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Helios 500",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Helios Neo 18 AI",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Triton 17X",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator X27",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator X35",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X32",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X32 FP",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X32Q FS",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X34 V3",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X34 X3",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer XV275K",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer XV275U",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Z57",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG274QX",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG274QXM",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG274QZM",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG344UXM",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG353UCG",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC G4309VX",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC Q27G3XMN",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC Q27G4SLM/WS",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC Q27G40XMN",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC Q27G4XM",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC Q27G4ZMN",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC U27G3XM",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS G635LW",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS G835LW",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS G835LXG",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PA27UCX",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PG32UQXR",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PG43UQR",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ProArt PA27UCX",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ProArt Display PA32KCX",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ProArt PA32UCR",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ProArt PA32UCX",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Flow X16 GV601RW",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Flow X16 GV601VI",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Strix G634JYR",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Strix G634JZ",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Strix G834JYR",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Strix XG43UQ",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Swift PG27UQ",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Swift PG35VQ",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Swift PG43UQ",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Swift PG65UQ",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Zephyrus Duo 16 GX650PY",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Zephyrus Duo 16 GX650RW",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Zephyrus M16 GU604V",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG Zephyrus M16 GU604VZ",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG43UQ",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "BenQ EX321UX",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell UP3221Q",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "FFALCON 27Q7A",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "FFALCON 27U8A",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AERO 17",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AORUS FV43U",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AORUS Master 18",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigayByte AERO 16",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Innocn 2750U PLUS",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Hansung TFG27Q16G",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Hansung TFG32Q16G",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Hansung TFG34Q16WG",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Hisense 27G5K-Mini",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Hisense 27G7K",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Hisense ZEEKR 43C9H",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC 27E2QKM",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC 27G7K-PRO",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC AG27Q420B",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC G27M2",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC G27M7",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC PG271Q",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC PG27P5U",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC XG272U",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN by HP Transcend 16 Gaming Laptop 16t-u/16-u",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN Transcend 16 Gaming Laptop",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN X Emperium 65",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Innocn TFG34Q16WG",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Innocn 27M2V",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Innocn 32M2U",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Innocn 32A5R",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Innocn 27M2U",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Innocn 32M2V",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Innocn M34E7R",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Innocn M32A6V-P",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "I-O DATA Device, Inc. GDQ271JLAQ",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "I-O DATA Device, Inc. LDQ271JA",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Jupiter Systems Pana81X",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "KTC M27P20P",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "KTC M27T20S",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "KTC M32P10",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "KTC M27P20",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Creator Extreme",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion 9 16IRX9",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion Y9000K2021H",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion Y9000X IAH7",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo P27pz-30",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo XiaoXinPro 14c AKP10",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Y34wz-30",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Y9000K IRX8 X9, X11",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 9i (14″, 8)",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 9i (16″, 8)",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 9i (16″, 9)",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 27GM950B",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 27GR95UM",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 32GQ950",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 49GR85DC",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Matos Horizon MSG27ML",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Creator 17 A10SGS",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 274QPF X30MV",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 274UPDF E16M",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 276QRM32",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 276URA18",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Modern MD272QXP",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MPG 274URDFW E16M",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MS-15G3",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MS-15M1",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MS-17P1",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MS-17Q1",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI PAG344CQR",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Prestige 16Studio A13VF",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Raider GE68HX 13VI",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Raider 18 HX A14VGG",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Stealth 16 AI Studio A1VFG",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Stealth 18 AI Studio A1VIG",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Stealth A16 AI+ A3HVFG",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Stealth GS77 12UHS",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Titan 18 HX A14VIG",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Titan 18 HX AI A2XWJG",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Titan GT77 12 UHS",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Vector 16 HX AI A2XWIG",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Nubia Technology Co., Ltd. REDMGIAC GM001J",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 27M2N5500MY",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 27M2N6800ML",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 32M2N6800M",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 32M2N6800ML",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 32M2N6800MW",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 558M1RY",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 559M1RYV",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips Momentum 436M6VBPAB",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Pixio PX27UMW",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Planar Systems 21by9 81",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Planar Systems 21by9 81T",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung C49RG90",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LC49G95TSSNXZA",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS49CG950ENXZA",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS57CG950NNXZA",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Sceptre C275B-QWN168",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Sceptre C275B-QWN168W",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Sceptre C325B-QWN168",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Sceptre C345B-QUN168",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Skyworth F32D80U",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Sony LMD-27M1MD",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Sony LMD-32M1MD",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Sony LMD-43M1MD",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TCL 57R94",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TITAN ARMY 2751V PLUS",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Top Victory Investments Ltd AOC AG275QZM",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Top Victory Investments Ltd Q27G20SM",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TTE Corporation TCL 27U8A",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TTE Corporation TCL 27U8A-S",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TTE Corporation",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TTE Corporation R57U91",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ViewSonic VS19292",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ViewSonic VS19311",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ViewSonic VS19759",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ViewSonic VS20067",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "VX2720-4K-PRO",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "VX2722-4K-PRO",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Xiaomi P27QBA-RGP",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Xiaomi P27QDA-RG",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Xiaomi P27QDA-RGP",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Xiaomi P27UDA-RGP",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Yibin Jiaxin Electronic Technology Co., Ltd. M2765M",
+      "tier": 1000,
+      "trueBlack": false,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Model",
+      "tier": 1400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS H7607BA",
+      "tier": 1400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS RC74XA",
+      "tier": 1400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 9 16IPH11 (with 16.0 3200×2000 OLED)",
+      "tier": 1400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Model",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer PHN16S-I5",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Helios Neo 16 AI",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift Go 14 AI",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Helios Neo 16S AI",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AISTONE GLOBAL LIMITED 机械革命耀世16",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS B9406CAA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS GA403GM",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS GU405AA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS GU606AX",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS GX651AX",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS H7606WP",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS H7606WX",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS HT7407NA (WQXGA+ Touch)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5450GA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5450UA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5451GA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5451UA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5650GA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5650UA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS S5450AA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS S5650AA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM5406GA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM5606GA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3405CA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3407NA (WQ+ Bezel)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3480QA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3607OA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX8407AA",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell Pro Max 16 Premium MA16250",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Giga-Byte Technology Co. Ltd. AORUS Master 16 AM6J",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP HyperX OMEN 15 inch Gaming Laptop PC (15-ga/ 15t-ga ARL-HX & HXR GN22)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP HyperX OMEN 15 inch Gaming Laptop PC (15-ga/ 15t-ga PTL_H484 GN22)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP HyperX OMEN 15 inch Gaming Laptop PC (15-ga/ 15t-ga RPL_HXR GN22",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP HyperX OMEN 15 inch Gaming Laptop PC (15-gb/ 15z-gb Dragon GN22)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP HyperX OMEN 15 inch Gaming Laptop PC (15-gb/ 15z-gb GPT GN22)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP HyperX OMEN 15 inch Gaming Laptop PC (15-gb/ 15z-gb KRK GN22)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP HyperX OMEN Gaming Laptop 16-am2/16t-am2",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP HyperX OMEN Gaming Laptop 16-ap1/16z-ap1",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP HyperX OMEN MAX 16 inch Gaming Laptop PC (16-ah ARL_HXR GN22)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP HyperX OMEN MAX 16 inch Gaming Laptop PC (16-ak/ 16z-ak GPT GN22)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP HyperX OMEN MAX 16 inch Gaming Laptop PC (16t-ah ARL_HXR GN22)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 16 inch Laptop AI PC",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 Laptop 14-hh",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 Laptop 14-hk",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 Laptop 14-hm",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 Laptop 14-hn",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 Laptop 14-ke",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 14 inch Laptop AI PC",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 Laptop 16-bm",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 Laptop 16-bn",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 Laptop 16-br",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 Laptop 16-hm",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 7 Aero Laptop 14-ku",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 7 14 inch Laptop Next Gen AI PC",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 7 14 inch Laptop AI PC",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP TPN-H105",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP TPN-H106",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP TPN-H107",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Go 8AHP2",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Go 8ASP2",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad 5a 2-in-1 (15″, 11)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad 5i 2-in-1 (15″, 11)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 14AKP10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 14ASP10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 14IAH10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 16AGP11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 16AKP10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 16ASP10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 16IAH10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 16IPH11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5a (14″, 11)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5i (14″, 11)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 3i (15″,11)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 15IWC11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 15Q8Y11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 16AGP11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 16AHP10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 16AKP10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 16IPH11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 16IRH10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 16IRH10R",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion 5a (15″, 11)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion 5i (15″, 11)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion 7 15ASH11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion 7 16AGP11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion 7 16IAX10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion Pro 5 16ADR10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion Pro 5 16AFR10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion Pro5 16IAX10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion Pro 5 16IAX10H",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion Pro 7 16AFR10H",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo LegionPro7 16IAX10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion Pro 7 16IAX10H",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion R9000P ADR10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion R9000P AFR10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion R9000P AFR10M",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion Y9000X IAX10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion Y9000X IAX10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkBook 14x ILL",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkBook Plus G7 Auto Twist",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P16s Gen5",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad T16 Gen 5",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad X9-15p Gen 1",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad X14 Gen 1",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo 小新Pro 14 IMH10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo 小新Pro 16 IMH10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo XiaoXin 16 AHP10R",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo XiaoXinPro 14AGP11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo XiaoXinPro 14 IPH11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo XiaoXinPro 14c IRH10R",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo YGPro9 16IAH10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 7 15ASH11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 2-in-1 14AGP11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 2-in-1 14ILL10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 2-in-1 14IPH11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 2-in-1 16IPH11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 2-in-1 16AGP11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 2-in-1 16AKP10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 2-in-1 16ILL10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 9 2-in-1 14IPH11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 9i 2-in-1 Aura Edition (14″,10)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 9n 2-in-1 (16″,11)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14AGP11 (with 14.0 2880×1800 OLED)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14ILL11(with 14.0 2880×1800 OLED)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 7 14AKP10 X",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro7 15ASH11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 7 14ASP10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 7 14IAH10",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 7 15IPH11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 9 15N1X11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 9 16IPH11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 Ultra 14IPH11",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14AKP10 (with 14.0 2880×1800 OLED)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14ILL10 (with 14.0 2880×1800 OLED)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14IPH11(with 14.0 2880×1800 OLED)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14Q8Y11(with 14.0 2880×1800 OLED)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7i Aura Edition (15″,9)",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 16Z90U",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 16T95TP",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Crosshair 16 Max HX E2WGK",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Prestige 16 AI+ C3MTG",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI PrestigePro16 AI+",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Raider 16 HX B2WG",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Raider 16 Max HX B2WJ",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Razer Inc. RZ09-0581",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book6 Pro 14",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book6 Pro 16",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book6 Ultra",
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Model",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Helios Neo 16S AI (PHN16S-71)",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SFE14-51T",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS GA403UP",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS GA403WW",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS GA605KP",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS GU605CX",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS K3500PC",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS K3604VA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS K5504VA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS K5504VN",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS K6502HE",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS K6602HE",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS K6602ZE",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS K6604JV",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M1403QA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M1503IA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M1503QA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M1505Y",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M1505YA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M1603IA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M1605YA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M3401Q",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M3402RA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M3500Q",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M3502RA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M3604YA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5402RA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5406KA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5406NA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5406NA (WUXGA)",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5406WA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5450UA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5451UA (WQXGA+)",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5602QA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5602RA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5606KA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5606NA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5606UA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5606WA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M6500XV",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M6501RM",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M7400QE",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M7600RE",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M7601RM",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS N6506MJ",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS N7400PC",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS N7601ZW",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS S5402ZA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS S5406MA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS S5406MA(WUXGA)",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS S5406SA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS S5507QA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS S5606CA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS S5606MA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM3402Y",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM3402YA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM3406GA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM3406HA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM3406HA(WUXGA)",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM3406KA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM5302T",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM5401RA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3404VA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3405CA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3405MA(WUXGA)",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3406ZA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3407NA (WQ+ Bezel)",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3407QA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3407RA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX5304VA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX5400ZB",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS Vivobook 15",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS Vivobook Pro 14",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS Vivobook Pro 14X",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS X1405VA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS X1503ZA",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS X1603Z",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell XPS16 DX16263",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AERO 14",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AERO 16",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "H3c H3CBook Ultra 14",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN Transcend 14 inch Gaming Laptop PC",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook Ultra Laptop 14-kg",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook Ultra 14 inch Laptop Next Gen AI PC",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook X Laptop 14-ka",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook X Laptop 14-ka1",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 14AKP10 X",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 14ASP10 X",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 14IAH10 X",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 16IAH10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 3 15AHP10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 3 16AHP10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 3i (15″,11)",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 3x (15″,10)",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 16AHP10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 16IRH10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 16IRH10R",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion 5 15AHP10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion 5 15AKP10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion 5 15IAX10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion 5 15IRX10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion R9000P AFR10M",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad X1 Carbon Gen 13, non-touch",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad X1 Carbon Gen 14",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Thinkpad X9-14 Gen1",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Thinkpad X9-14 Gen1, touch",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad X9-15 Gen 1",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo XiaoXinPro 14c AHP10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo XiaoXinPro 14c IRH10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo XiaoXinPro 14c IRH10R",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 2-in-1 14ILL10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 2-in-1 16ILL10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 9i 2-in-1 Aura Edition (14″,10)",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Book 9 14IAH10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 7 14AKP10 X",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 7 14ASP10 X",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 7 14IAH10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 7 14IAH10 X",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14Q8X9",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7i Aura Edition (15″,9)",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 9 14ILL10",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MS-13Q4",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MS-14QK",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MS-1545",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MS-2613",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MS-261K",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Prestige 14 AI+ Evo C2VMG",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Prestige 16 AI+ C3MTG",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Prestige 16 AI Evo B1MG",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Prestige A16 AI+ A3HMG",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Stealth A16 AI+ A3HVFG",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Stealth A16 AI+ A3XWJG",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Stealth 16 AI A2HWGG",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Stealth 16 AI+ B3WJ",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Stealth 16 MercedesAMG A1VFG",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Stealth 16 Mercedes-AMG Motorsport A13VG",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Venture 14 AI A1MG",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Ventrue A14 AI+ A3HMG",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI VenturePro 16 AI A1UCXG",
+      "tier": 600,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Model",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Aspire 14 AI",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Aspire 14 AI A14-53M",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Aspire 14 AI (A14-61M)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Aspire 14 AI (Intel)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Aspire 16 AI",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Aspire 16 AI(A16-61M)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Aspire 16 (Intel) A16-71M",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Aspire X 16 AI",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer PE320QK G0",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer PE320QK X",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Helios 16 AI",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Helios Neo 16 AI",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Helios Neo 16S AI",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Predator Triton 300 SE",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SF16-71T",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SF314-71",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SFE16-43",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SFG14-42",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SFG14-71",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SFG14-73",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SFG16-71",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SFX14-61G",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SFX14-73G",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift 14 AI (AMD)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift 14 AI (SF14-51)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift 16 AI SF 16-51",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift Edge 14 AI (SFE14-51)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift Edge 14 AI (SFE14-I51)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift Edge 16 AI (SFE16-I51)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift Edge 16 AI (SFE16-I51T )",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift Edge",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift Edge 16",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift Go 14 (SFG14-63)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift Go 14 (SFG14-74)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift Go 14 AI",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift Go 16 (SFG16-73)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift GO 16 AI (SFG16-61)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift SFG16-A71T",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer Swift X 14 SFX14-72G",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SwiftX 14",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SwiftX 14-71G",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SwiftX 16",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer SwiftX SFX16-61G",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer TravelMate P6 14",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X27U F6",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ACER X27U F8",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X27U Z5",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X34 F1",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X34 F3",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Alienware 16X Aurora(UMA)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Alienware AW3426DW",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG277QSD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG326UZD2",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AGP327UZD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AGP346UCSD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC Q27G4KD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS B3302FEA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS GA403UI",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS GA605WI",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS GU605MY",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS H5600QR",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS H7606WH",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS H7606WP",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS H7606WM",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS H7606WV",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS HT5306QA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS HN7306EA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS HN7306WI",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS K3405ZF",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS K6502VJ",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M1605XA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M3400QA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5506NA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5506UA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS M5506WA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS MQ17QH",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS N5606CU",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS N6506CU",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS N6506MU",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PG27AQWP-W",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PG32UCDM3",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PG34WCDN",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS S5506MA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS T3300KA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS T3304GA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS TN3402QA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS TN3402YA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS TN3604YA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS TP3402ZA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS TP3407SA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS TP3604VA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS TP3607SA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS TP3607SH",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM325SA ZenBook",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM325UA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM3405GA (WUXGA Touch)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM3406GA(Touch)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM3406HA(Touch)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM3406KA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM5302LA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM535QE",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM5401QA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM5406GA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM5606KA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UM5606WA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UN5401R",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UP3404VA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UP5302ZA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UP5401ZA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UP6502ZD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX325EA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX325UAZ",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3404VA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3405CA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3405MA (WUXGA)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX3405MA(touch)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX371EA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX5304MA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX5304VA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX535LI",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX5400EA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX5401EAJ",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX5401ZA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX5406SA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX5606SA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX564EI ZenBook Flip",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX582HM",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX582HS",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX582L",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX582LR",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX582Z",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX7602VI",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX7602ZM",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX8402Z",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX8402ZA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX8406CA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX8406MA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX8406MA (WUXGA)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS UX9702AA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS W7600H5A",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG27AQDPG",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG27AQWMG",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG34WCDMS",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ZenBook Pro Duo UX581GV",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "BenQ EX271QZ",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "BenQ EX321UZ",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell 16S DS16260",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell 16S DS16265",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell Alienware 16 Area-51 AA16250",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell DS16260",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell Pro Max 14 Premium MA14250",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell Pro 14 Premium PA14250",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell Pro 14 Premium PA14260",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell UltraSharp 32 4K QD-OLED Monitor U3226Q",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell XPS 13 9340",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell XPS 13 9345",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell XPS 14 DA14260",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell XPS 16 DA16260",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Fujitsu AH-X/ D3",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Fujitsu Lifebook AH-X/ F1",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AERO 16",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AORUS FO27Q5P",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AORUS Master 16",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte FO27Q28G",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte MO27Q28G",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Gigabyte MO32U24",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte MO34WQC36",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "H3C H3CBook Ultra 14T",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC GS27QH",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN MAX 16 inch Gaming Laptop PC (16-ah/ 16t-ah GN22 Board1)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN MAX 16 inch Gaming Laptop PC (16-ah/ 16t-ah GN22 Board1_Laibao)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN MAX 16 inch Gaming Laptop PC (16-ah/ 16t-ah GN22 Board2)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN MAX 16 inch Gaming Laptop PC (16-ah/ 16t-ah GN22 Board2_Laibao)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN OLED 27qs",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN OLED 34",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN Transcend 14 inch Gaming Laptop PC",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 16 inch Laptop Next Gen AI PC",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 5 Laptop 16-af",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 7 14 inch Laptop AI PC",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OmniBook 7 14 inch Laptop PC",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Pavilion Laptop 16-af",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HK GS27QH",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Pavilion Plus Laptop 14-ew1",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Pavilion Plus Laptop 14-ey0",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Pavilion Plus Laptop 14-ey1",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Spectre Foldable 17-CS0xx",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad 5 2-in-1 14AKP10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad 5 2-in-1 14IAL10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad 5a 2-in-1 (14″, 11)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad 5i 2-in-1 (14″, 11)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 14AHP9",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 14IMH9",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 14IRH8",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 16AHP9",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Pro 5 16IMH9",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim (14″, 8) (AMD)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 3 14AHP10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 3 14AHP10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 3i (14″,10)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 3i (14″,11)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 14AGP11",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 14AHP10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 14AHP11",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 14AKP10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 14ARP10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 14IAH10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 14IMH10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 14IPH11",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 14IRH10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 14IRH10R",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 (14″, 8)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 (14″, 9)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5 (16″, 9)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5i (14″, 9)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5i (14″, 8)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5i (14″,8) (Intel+UHD)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad Slim 5i (16″, 9)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo IdeaPad 5x 2-in-1 (14″, 11)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion Slim 5 14APH8 (X2, X6, P0-R)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo P14s Gen 4 AMD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo P14s Gen 5 AMD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Phoenix (Lenovo Thinkpad T14s Gen3)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo T14 Gen 4 AMD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo T14 Gen 4 AMD, T14s Gen 4 AMD,P14s Gen 4 AMD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo T14 Gen 5 AMD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo T14s Gen 3 AMD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo T14s Gen 4 AMD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14AGP11(with 14.0 1920×1200 OLED)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14IPH11(with 14.0 2880×1800 OLED)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkBook 14p G2 ACH",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkBook 14p Gen 3",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkBook Plus Gen 4",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P14s Gen 4",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P14s Gen 7 AMD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P14s Gen 6 AMD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P16 Gen 1",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P16 Gen 2 (OLED NVIDIA RTX 2000)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P16 Gen 2 (OLED+UMA)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P16 Gen 2(OLED Intel Arc(TM) Pro A30M)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P16 GEN2 (OLED NVIDIA RTX 4090)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P16 GEN2 (OLED NVIDIA RTX A1000)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P16s Gen 2",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P16s Gen3",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad P16s Gen 4 AMD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad T14 Gen 4",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad T14 Gen 5",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad T14 Gen 6",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad T14 Gen 7",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad T14s Gen 3",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad T14s Gen 4",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad T14s Gen 5",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad T14s Gen 6 Snapdragon",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad T14s Gen 7",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad T16 Gen 3",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Thinkpad X1 Carbon Gen12",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Thinkpad X1 Carbon Gen13",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Thinkpad X9-14 Gen1",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Thinkpad X9-14 Gen1, non-touch",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad X13 Gen 1",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Thinkpad X13 Gen4",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo ThinkPad X14 Gen 1",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo XiaoXinPro 14c IAH10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo XiaoXinPro 16c IAH10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 (14″, 7)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 14IRL8",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 2-in-1 14AHP9",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7 2-in-1 14IML9",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 714APR R5 90Hz",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 7i (14″, 7)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 9 2-in-1 14IMH9",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 9i 2-in-1 Aura Edition (14″,10)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 9i (13″, 8)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga 9i (14″, 7)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Book 9 13IMU9",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 7 14ASP9",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 7 14IMH9",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 9i",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 6 14APU8",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 6 14IAP8",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 6 14IRH8",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 6 14IRH8",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14AGP11",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14AKP10 (with 14.0 1920×1200 OLED)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14ILL10",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14IMH9",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14ILL10 (with 14.0 1920×1200 OLED) Source device",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14ILL11(with 14.0 1920×1200 OLED)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 14Q8Y11(with 14.0 2880×1800 OLED)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 Carbon (14″, 6)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 Pro",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 Pro 14 O",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 Pro 14ACH5 OD",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 Pro 14ARH7",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 7 Pro 14IAH7",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Slim 9i (14″, 7)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 14Z90RS",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 15Z90RT",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 15Z90ST",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 16T90SP",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 16Z90RS",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 16Z90SP",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 16Z90TP",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 17X90R",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 27GX700A",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 27GX790B",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 32GX870B",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 39GX950B",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MEDION AG SPRCHRGD 16 S1 OLED",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Crosshair 16 HX E14WGK",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Creator 15 A11UH",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 272QP QD-OLED X50",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 321UP QD-OLED X24",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 341CQP QD-OLED X28",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MS-1544",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MPG 322UR QD-OLED X24",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MPG 271QR QD-OLED X50",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MPG 341CQR QD-OLED X36",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Prestige 13 AI+ Evo A2VMG",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Raider GE66 12UGS",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Stealth 14 AI Studio A1VFG",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI Stealth 15 A13VF",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "PHILIPS 27M2N6550PF",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 27M2N8500X",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 27M4N6500U",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 32M2N8900P",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Pixio PX27Q280OLEDG",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Predator PHN14-71",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Razer Blade 16 / RZ09-0510",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Electronics NT960QHA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book Pro 13″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book Pro 15″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book2 Pro 13″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book2 Pro 15″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book2 Pro Special Edition (2024)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book2 Pro Special Edition 15″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book3 Pro 14″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book3 Pro 16″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book3 Pro 360 16″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book3 Ultra 16″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book3 Ultra 16″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book4 Edge 14",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book4 Edge 16",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book4 Pro 14″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book4 Pro 16″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book4 Pro 360 16″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book4 Pro 360 5G",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book4 Ultra 16″",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book5 Pro 14",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book5 Pro 16",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book5 Pro 360",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Book5 Pro H 16",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung Galaxy Galaxy Book6 Edge 16",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS27FG600SNXZA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS32HG800SNXZA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung NP965QPA",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TITAN ARMY 27T8M",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Top Victory Investments Limited 27M2N6550PF",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ViewSonic VS19008",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ViewSonic VX1622-4k",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ViewSonic VX1622-4K",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Xiaomi Communications Co Pro 15 OLED (A335_UMA)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Xiaomi Communications Co Pro 15 OLED (A35_DIS)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Xiaomi Communications Co Pro15 OLED (A35S)",
+      "tier": 500,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Model",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer AOPEN 16PM8QK",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer PE270K G0",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer PM168QKT",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X27 G2",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X27U F3",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X27U W5",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X27U X2",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X27U Z2",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X32 V5",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X32 X2",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X32 X3",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X32 X5",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X34 V5",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X34 X",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X34 X5",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X39",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Acer X45 bmiiphuzx",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Alienware AW2725D",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG276QKD",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG276QZD2",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG326UZD",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG327UD",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AG346UCD",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC AGP327UZD",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC PD34",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC PD49",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC Q27G4SD",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "AOC U27G4D",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASRock PGO27QFS",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASRock PGO27QFV",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASRock PGO32UFS",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS 27AQDP",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS MQ149CD",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PA32DC",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PG27UCWM",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PG32UCDM",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PG32UCDP",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PG34WCDM",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PG39WCDM",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS PG49WCD",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ProArt Display OLED PA27UCDMR Professional Monitor",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ProArt Display OLED PA32UCDMR-K Professional Monitor",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ProArt PA279CDV",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ProArt PA27USD",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ProArt PA32USD",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG PG27UCDM",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG PG32UCDMR",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG259QWPGE",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG27ACDNG",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG27AQDMG",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG27AQDMGR",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG27AQDNG",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS ROG XG27UCDMG",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG27ACDMS",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG32UCDS",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG32UCWG",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG32UCWMG",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG32UQDMS",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ASUS XG34WCDG",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "CORSAIR XENEON 27QHD240-A OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell AW2725Q",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell AW3423DW",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell AW3423DWF",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell AW3425DW",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Dell S3225QC",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AERO 15 Oled",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AERO 5",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AORUS CO49DQ",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AORUS FO27Q2",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AORUS FO27Q3",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AORUS FO32U",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AORUS FO32U2",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte AORUS FO32UP",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte GO27Q24G",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte MO27Q2",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte MO27Q2A",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Gigabyte MO27Q3",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte MO27U2",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte MO32U",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Gigabyte MO32U2",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "GigaByte MO34WQC",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Guangxi Century Innovation 34G1X PRO",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Guangxi Century Innovation CE270U Z",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Guangxi Century Innovation CE320QK P",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC GS27QE",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC GS27QTS",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC GS27UK",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC GS32UK",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HKC GS49UK",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP EliteBook x360 1030 G7",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy 15 Laptop PC 15-ep0xxx",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy Laptop 16-h",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy Laptop 16-h1/16t-h1",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy x360 15.6″ 2-in-1 Laptop PC",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy x360 15m Convertible PC",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy x360 2-in-1 Laptop 13-bf",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy x360 2-in-1 Laptop 14-fa/14z-fa",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy x360 2-in-1 Laptop 14-fc/14t-fc",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy x360 2-in-1 Laptop 15-ew",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy x360 2-in-1 Laptop 15-ey",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy x360 2-in-1 Laptop 15-fe",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy x360 2-in-1 Laptop 15-fh/15t-fh",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy x360 2-in-1 Laptop 16-ac/16t-ac",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy x360 2-in-1 Laptop 16-ad/16z-ad",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Envy x360 Convertible 13-bd0xxx/13m-bd0xxx",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN 15",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN by HP Transcend 16 Gaming Laptop 16t-u/16-u",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP OMEN by HP Transcend 32",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Pavilion Plus Laptop 14-eh",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Pavilion Plus Laptop 14-eh1",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Pavilion Plus Laptop 14-eh1",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Spectre x360",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Spectre x360 13 Convertible PC",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Spectre x360 14 inch 2-in-1 Laptop PC",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Spectre x360 14 inch 2-in-1 Laptop PC (G09AHFC14035A)",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Spectre X360 15 Convertible PC",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Spectre x360 2-in-1 Laptop 14-ef",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Spectre x360 2-in-1 Laptop 16-aa(G09AHFC16011A)",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Spectre x360 2-in-1 Laptop 16-aa(HD-L160XR01-G5DA)",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP Spectre x360 2-in-1 Laptop 16-f",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP ZBook Studio G7 Mobile Workstation (SKU11+LG)",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP ZBook Studio G7 Mobile Workstation (SKU6+GIS)",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "HP ZBook Studio G7 Mobile Workstation (SKU6+TPK)",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Innocn X27U",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Innocn X49 X",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "I-O DATA Device, Inc. GDQ271UEL",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Joled EPS269Q015A",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "KOORUI S4941XO",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo A243403Y0",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo G25270QY0",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo G25270UY0",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo G25315UY0",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Legion Pro 27Q-10",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Lenovo Yoga Pro 27UD-10",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 27GS95QE",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 27GX704A",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 27GX790A",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 32EP950",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 32GS95UE",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 32GX850A",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 32GX870A",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 34GS95QE",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 34GX90SB",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 34GX900A",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 34GX90SA",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 39GS96QB",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 39GS95QE",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 39GX900A",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 39GX90SA",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 39GX90SB",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 45GS96QB",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 45GS95QE",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 45GX900A",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 45GX90SA",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 45GX90SB",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 45GX950A",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "LGE 45GX950B",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MEDION AG Signium 14 S1 OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 271QP QD-OLED X24",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 271QP QD-OLED X28",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 271QPX QD-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 271QPX QD-OLED E2",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 272QPW QD-OLED X28",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 272UP QD-OLED E16",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG272UP QD-OLED X24",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 273QP QD-OLED X24",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 321UP QD-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 321UPX QD-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 322UP QD-OLED E16",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MAG 341CQP QD-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MEG 342C QD-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MPG 271QRX QD-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MPG 272URX QD-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MPG 321URX QD-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MPG322URX QD-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MPG 341CQPX QD-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MPG 491CQP QD-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI MPG 491CQPX QD-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "MSI PRO MAX 271UPXW12G",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 27E1N8900",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 27M2N6500P",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 27M2N8500",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 27M2N8800",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 32M2N8800",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 34M2C8600",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 49M2C8900",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Philips 49M2C8900L",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Pixio PX277OLEDMAXV2",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS27FG810SUXEN",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS27HG700SNXZA",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS27HG800SNXZA",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS32FG810SUXEN",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS32FM900SNXZA",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS32HG730SNXZA",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS34BG850SUXEN",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS49CG930SIXCI",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS49CG950SEXEN",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Samsung LS49DG910SNXZA",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Shenzhen KTC Technology Co., Ltd. G32P5",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Skyworth F32G80U Ultra",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Sony SDM-27Q10L",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Sony SDM-27Q10S",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TITAN ARMY G2785T",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TITAN ARMY G27P9",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Top Victory Investments Limited Q27G4ZDP/WS",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "TTE 32X3A",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "Top Victory Investments Limited Q27G41ZDP",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ViewSonic VS20196",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ViewSonic VS20922",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    },
+    {
+      "model": "ViewSonic VX2722-4K-OLED",
+      "tier": 400,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/"
+    }
+  ],
+  "systems": [
+    {
+      "manufacturer": "Lenovo",
+      "family": "Legion Pro 7 16IAX10H",
+      "width": 2560,
+      "height": 1600,
+      "tier": 1000,
+      "trueBlack": true,
+      "source": "https://displayhdr.org/certified-products/",
+      "specSource": "https://psref.lenovo.com/WDProduct/Legion_Pro_7_16IAX10H?tab=spec"
+    }
+  ]
+}

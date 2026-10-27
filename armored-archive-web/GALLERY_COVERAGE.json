@@ -1,0 +1,758 @@
+{
+  "build": "20261011-modules1",
+  "checkedConfigurations": 125,
+  "withOfflinePhotographsOrDocuments": 85,
+  "offlineImagePlacements": 200,
+  "vehicles": [
+    {
+      "key": "iv:f1",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "iv:f2",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "iv:g",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 4
+    },
+    {
+      "key": "iv:h",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "iv:j",
+      "localPhotos": 6,
+      "localExactPhotos": 6,
+      "assignedSources": 6
+    },
+    {
+      "key": "iv:germ_pzkpfw_iv_ausf_c",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "iv:germ_pzkpfw_iv_ausf_e",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 3
+    },
+    {
+      "key": "iv:germ_panzerbefelhswagen_iv_ausf_j",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "panther:d",
+      "localPhotos": 4,
+      "localExactPhotos": 4,
+      "assignedSources": 5
+    },
+    {
+      "key": "panther:a",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 10
+    },
+    {
+      "key": "panther:g",
+      "localPhotos": 4,
+      "localExactPhotos": 4,
+      "assignedSources": 5
+    },
+    {
+      "key": "panther:f",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "panther:germ_pzkpfw_v_ersatz_m10",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "tiger:h1",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "tiger:e",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "tiger2:pre",
+      "localPhotos": 4,
+      "localExactPhotos": 4,
+      "assignedSources": 4
+    },
+    {
+      "key": "tiger2:h",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "jagdtiger:porsche",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 4
+    },
+    {
+      "key": "jagdtiger:henschel",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 4
+    },
+    {
+      "key": "sturmtiger:prototype",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "sturmtiger:production",
+      "localPhotos": 6,
+      "localExactPhotos": 6,
+      "assignedSources": 6
+    },
+    {
+      "key": "leopard1:a0",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "leopard1:a1",
+      "localPhotos": 2,
+      "localExactPhotos": 1,
+      "assignedSources": 3
+    },
+    {
+      "key": "leopard1:a5",
+      "localPhotos": 8,
+      "localExactPhotos": 3,
+      "assignedSources": 12
+    },
+    {
+      "key": "leopard1:germ_leopard_c2_mexas",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "raketenjagdpanzer:rakjpz1",
+      "localPhotos": 5,
+      "localExactPhotos": 5,
+      "assignedSources": 5
+    },
+    {
+      "key": "raketenjagdpanzer:rakjpz2",
+      "localPhotos": 4,
+      "localExactPhotos": 4,
+      "assignedSources": 4
+    },
+    {
+      "key": "raketenjagdpanzer:jaguar1",
+      "localPhotos": 5,
+      "localExactPhotos": 3,
+      "assignedSources": 5
+    },
+    {
+      "key": "raketenjagdpanzer:germ_jaguar_2",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 11
+    },
+    {
+      "key": "marder:a3",
+      "localPhotos": 5,
+      "localExactPhotos": 5,
+      "assignedSources": 5
+    },
+    {
+      "key": "marder:a5",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "marder:germ_marder_1a1",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "artillery:germ_sturmpanzer_ii",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "artillery:germ_hummel",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "artillery:germ_sturmpanzer_iv_brummbar",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 3
+    },
+    {
+      "key": "sdkfz_light:germ_sdkfz_221_s_pz_b_41",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "sdkfz_light:germ_pzkpfw_38t_aufklarungspanzer",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "sdkfz_light:germ_amd_35_kwk",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "sdkfz_light:germ_amd_35_kwk39",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "czech:germ_pzkpfw_35t",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "czech:germ_pzkpfw_38t_ausf_a",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "czech:germ_pzkpfw_38t_ausf_f",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "panzer3:germ_pzkpfw_iii_ausf_e",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 3
+    },
+    {
+      "key": "panzer3:germ_pzkpfw_iii_ausf_b",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 3
+    },
+    {
+      "key": "panzer3:germ_pzkpfw_iii_ausf_f",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 4
+    },
+    {
+      "key": "panzer3:germ_pzkpfw_iii_ausf_j_l42",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "panzer3:germ_pzkpfw_iii_ausf_j",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "panzer3:germ_pzkpfw_iii_ausf_l",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 4
+    },
+    {
+      "key": "panzer3:germ_pzkpfw_iii_ausf_m",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 3
+    },
+    {
+      "key": "panzer3:germ_pzkpfw_iii_ausf_n",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "marder_ww2:germ_panzerjager_1",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 8
+    },
+    {
+      "key": "marder_ww2:germ_pzkpfw_38t_marder_iii",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "marder_ww2:germ_pzkpfw_38t_marder_iii_ausf_h",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 3
+    },
+    {
+      "key": "panzer2:germ_pzkpfw_ii_ausf_c",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 3
+    },
+    {
+      "key": "panzer2:germ_pzkpfw_ii_ausf_f",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 3
+    },
+    {
+      "key": "panzer2:germ_pzkpfw_ii_ausf_c_dak",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "stug:germ_stug_iii_ausf_a",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 3
+    },
+    {
+      "key": "stug:germ_stuh_iii_ausf_g",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 2
+    },
+    {
+      "key": "stug:germ_stug_iii_ausf_f",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 3
+    },
+    {
+      "key": "stug:germ_stug_iii_ausf_g",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 16
+    },
+    {
+      "key": "proto_early:germ_pzkpfw_38t_na",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_early:germ_nbfz_vi",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 7
+    },
+    {
+      "key": "sdkfz234:germ_sdkfz_234_1",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "sdkfz234:germ_sdkfz_234_3",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "sdkfz234:germ_sdkfz_234_2",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "sdkfz234:germ_sdkfz_234_4",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_ww2_td:germ_pzsfl_iva_dickermax",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 3
+    },
+    {
+      "key": "proto_ww2_td:germ_pzsflk40_sturer_emil",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 4
+    },
+    {
+      "key": "proto_ww2_td:germ_pzkpfw_ii_ausf_h",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "proto_ww2_td:germ_waffentrager_krupp_steyr",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "proto_ww2_tanks:germ_vk_3002m",
+      "localPhotos": 6,
+      "localExactPhotos": 6,
+      "assignedSources": 6
+    },
+    {
+      "key": "proto_ww2_tanks:germ_pzkpfw_vi_tiger_p",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "proto_ww2_tanks:germ_panzerbefelhswagen_vi_p",
+      "localPhotos": 1,
+      "localExactPhotos": 0,
+      "assignedSources": 1
+    },
+    {
+      "key": "proto_ww2_tanks:germ_pzkpfw_vi_ausf_b_tiger_iih_sla",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_ww2_tanks:germ_panther_ii",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "proto_ww2_tanks:germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_ww2_tanks:germ_pzkpfw_e_100",
+      "localPhotos": 6,
+      "localExactPhotos": 6,
+      "assignedSources": 6
+    },
+    {
+      "key": "proto_ww2_tanks:germ_pzkpfw_maus",
+      "localPhotos": 6,
+      "localExactPhotos": 6,
+      "assignedSources": 6
+    },
+    {
+      "key": "nashorn:germ_panzerjager_nashorn",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "proto_ww2_aa:germ_vsw_flak_41",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 3
+    },
+    {
+      "key": "proto_ww2_aa:germ_flakpanzer_v_coelian",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "jagdpanzer:germ_jgdpz_iv_l48",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 3
+    },
+    {
+      "key": "jagdpanzer:germ_jgdpz_38t",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "jagdpanzer:iv70v",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "jagdpanzer:germ_pz_iv_l70_a",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "kanonen:germ_kanonenjagdpanzer",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "ferdinand:germ_panzerjager_tiger_p_ferdinand",
+      "localPhotos": 2,
+      "localExactPhotos": 2,
+      "assignedSources": 2
+    },
+    {
+      "key": "ferdinand:germ_panzerjager_tiger_p_elefant",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 8
+    },
+    {
+      "key": "hs30:germ_spz_12_3",
+      "localPhotos": 1,
+      "localExactPhotos": 0,
+      "assignedSources": 2
+    },
+    {
+      "key": "proto_cold_light:germ_ru251",
+      "localPhotos": 1,
+      "localExactPhotos": 0,
+      "assignedSources": 1
+    },
+    {
+      "key": "proto_cold_light:germ_marder_df_105",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "proto_cold_light:germ_spz_oerlikon_raketenautomat",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_cold_light:germ_marder_clovis",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_cold_light:germ_begleitpanzer_57",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 1
+    },
+    {
+      "key": "proto_cold_light:germ_th_800_bismark",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_cold_light:germ_th_400",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_cold_light:germ_radpanzer_90",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 6
+    },
+    {
+      "key": "wiesel:germ_wiesel_1_tow",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "modern_artillery:germ_pzh_2000",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "luchs:germ_sppz2_luchs_a2",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_cold_mbt:germ_erprobungstrager_3_achs_turm",
+      "localPhotos": 3,
+      "localExactPhotos": 3,
+      "assignedSources": 3
+    },
+    {
+      "key": "proto_cold_mbt:germ_kpz_70",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 13
+    },
+    {
+      "key": "proto_cold_mbt:germ_vt_1_2",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 16
+    },
+    {
+      "key": "proto_cold_mbt:germ_leopard_a1a1_120",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_cold_mbt:germ_leopard_2k",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_cold_mbt:germ_leopard_2av",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_cold_mbt:germ_leopard_2_pt14",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "tam:germ_thyssen_henschel_tam",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "tam:germ_thyssen_henschel_tam_2ip",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "tam:germ_thyssen_henschel_tam_2c",
+      "localPhotos": 4,
+      "localExactPhotos": 4,
+      "assignedSources": 4
+    },
+    {
+      "key": "leopard2:germ_leopard_2a4",
+      "localPhotos": 4,
+      "localExactPhotos": 4,
+      "assignedSources": 8
+    },
+    {
+      "key": "leopard2:germ_leopard_2a4m_can",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "leopard2:germ_leopard_2a5",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 3
+    },
+    {
+      "key": "leopard2:germ_leopard_2a6",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 2
+    },
+    {
+      "key": "leopard2:germ_leopard_2a5_pso",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "leopard2:germ_leopard_2a7v",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "leopard2:germ_leopard_2pl",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "puma:germ_schutzenpanzer_puma",
+      "localPhotos": 2,
+      "localExactPhotos": 1,
+      "assignedSources": 3
+    },
+    {
+      "key": "puma:germ_schutzenpanzer_puma_vjtf",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 2
+    },
+    {
+      "key": "boxer:germ_boxer_swatrinf",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "boxer:germ_vilkas",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_modern:germ_boxer_3105",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "proto_modern:germ_embt",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    },
+    {
+      "key": "jagdpanther:jagd",
+      "localPhotos": 1,
+      "localExactPhotos": 1,
+      "assignedSources": 1
+    },
+    {
+      "key": "jagdpanther:germ_panzerbefelhswagen_jagdpanther",
+      "localPhotos": 0,
+      "localExactPhotos": 0,
+      "assignedSources": 0
+    }
+  ]
+}

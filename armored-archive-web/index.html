@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Armored Archive — Vehicle collection</title>
+<script src="combat_data.js?v=20261012-pa41"></script>
+<script src="clean_cards.js?v=20261012-pa41"></script>
+<script src="opponent_cards.js?v=20261012-pa41"></script>
+<script src="combat_rosters.js?v=20261012-pa41"></script>
+<script src="combat_opponents_br.js?v=20261012-pa41"></script>
+<script src="combat_engine.js?v=20261012-pa41"></script>
+<script src="collection_scope.js?v=20261012-pa41"></script>
+<script src="photo_assets.js?v=20261012-pa41"></script>
+<script src="expanded_catalog.js?v=20261012-pa41"></script>
+<script src="armor_data.js?v=20261012-pa41"></script>
+<script src="armor_model.js?v=20261012-pa41"></script>
+<script src="vehicle_catalog.js?v=20261012-pa41"></script>
+<script src="vehicle_media.js?v=20261012-pa41"></script>
+<script src="vehicle_history.js?v=20261012-pa41"></script>
+<link rel="stylesheet" href="fluent.css?v=20261012-pa41">
+<link rel="stylesheet" href="display_hdr.css?v=20261012-pa41">
+<link rel="stylesheet" href="pa.css?v=20261012-pa41">
+</head>
+<body>
+<header><div class="brandMark" aria-hidden="true"><img src="grunder.svg" width="46" height="46" alt=""/></div><div class="logo"><span class="grunderName">GRÜNDER</span><span class="grunderSub">INDUSTRIES</span></div><div class="tag"><strong>Armored Archive</strong><span>Historical vehicles &amp; protection analysis</span></div><button class="btn" id="theme" aria-label="Switch colour theme">Light theme</button></header>
+<main>
+<div class="pageIntro"><div><div class="breadcrumb"><span>Archive</span><span aria-hidden="true">›</span><span>Vehicle collection</span></div><h1>Explore the collection</h1><p>Discover armoured vehicles, compare protection and explore their ammunition.</p></div><div class="introActions"><a href="#gallery">View gallery</a><a class="primary" href="#pa3d">Protection analysis <span aria-hidden="true">↓</span></a></div></div>
+<div class="collectionTools"><div class="collectionSwitch" role="group" aria-label="Vehicle collection"><button class="btn" data-collection="production" aria-pressed="true">Service &amp; production</button><button class="btn" data-collection="prototype" aria-pressed="false">Prototypes &amp; test vehicles</button></div><label class="collectionSearch">Find a vehicle <input id="vehicleSearch" type="search" placeholder="Vehicle or family name" autocomplete="off"></label><span class="source" id="collectionCount"></span></div><div class="tabs" id="vehicleTabs"></div>
+<div class="grid">
+<section class="card hero"><img id="heroImg" alt="Selected vehicle archival photograph"><div class="heroText"><div class="eyebrow" id="heroEyebrow"></div><h2 id="heroName"></h2><p id="heroLead"></p><div class="meta" id="heroMeta"></div></div></section>
+<section class="card pad"><div class="sectionTitle">Vehicle overview</div><div class="specs" id="specs"></div><div style="height:18px"></div><div class="sectionTitle" id="variantChoiceTitle">Choose a variant</div><div class="variants" id="variants"></div><div class="roleNote" id="roleNote"></div></section>
+</div>
+<div style="height:16px"></div>
+<section class="card pad" id="gallery"><div class="sectionTitle">Vehicle gallery &amp; details</div><div class="detail"><div><img id="variantImg" class="photo" alt="Selected variant archival photograph"><div class="source" id="imgSource"></div><div class="thumbs" id="thumbs"></div><div class="source" id="mediaNote"></div><div class="links" id="mediaLinks"></div></div><div><h2 id="variantName" style="margin-top:0"></h2><p id="variantDesc" class="muted"></p><div class="kv" id="variantKV"></div><p class="note" id="technicalNote" hidden></p><div class="links" id="recordSources"></div></div></div></section>
+<div style="height:16px"></div>
+<section class="card pad" id="protection" hidden aria-hidden="true"><!-- retired: superseded by the 3D protection analysis; controls kept for combat_ui.js --><div class="sectionTitle">Armour protection</div><div class="controls"><label>Target surface <select id="surface"><option value="front">Front</option><option value="side">Side</option><option value="rear">Rear</option><option value="turret">Turret</option></select></label><label>Hit zone <select id="armorZone"></select></label><label id="eraStateLabel" hidden>ERA tile state <select id="eraState"><option value="intact">Intact</option><option value="spent">Expended / missing</option></select></label><label>Impact angle from normal <input id="angle" class="angle" type="range" min="0" max="60" step="5" value="0"><b id="angleVal">0°</b></label></div><div style="height:12px"></div><div class="armorGrid" id="armorGrid"></div><div class="note" id="armorNote"></div><div id="armorLayers"></div></section>
+<div style="height:16px"></div>
+<section class="card pad" id="opponentPick"><div class="sectionTitle">Opponent &amp; shell · <span id="combatEra"></span></div><div class="opponentSelection"><div class="controls"><label>Opponent <select id="enemyVehicle"></select></label><label>Enemy shell <select id="shell"></select></label><label hidden>Method <select id="combatMethod"><option value="wiki">Wiki penetration tables</option><option value="formula">De Marre (supported AP rounds)</option></select></label><label>Range <select id="range"><option value="10">10 m</option><option value="100">100 m</option><option value="500">500 m</option><option value="1000">1,000 m</option><option value="1500">1,500 m</option><option value="2000">2,000 m</option></select></label></div><div class="opponentArtwork"><img id="opponentCard" alt="" width="320" height="200"></div></div><div style="height:12px"></div><div class="scroll" hidden><table><thead><tr><th>Enemy vehicle &amp; shell</th><th>Penetration</th><th>Protection · selected mechanism</th><th>Result</th><th>Assessment</th></tr></thead><tbody id="shellTable"></tbody></table></div><details class="enemyAmmoPanel"><summary>Selected enemy ammunition · specifications</summary><div id="enemyAmmoDetails"></div></details><div class="note" id="combatEnemyNote"></div><p class="source">Pick the opponent, shell and range here; the 3D protection analysis below fires that shell at the selected vehicle.</p><div class="source" hidden><div id="combatReadout"></div><details><summary>Calculation, sources and limits</summary><p>Protection is evaluated for the selected hit zone and ammunition mechanism. Representative steel/ERA paths use layer-specific properties; sourced frontal RHAe examples use the 0° shell table directly. Unknown composite/NERA geometry produces an unresolved result. The ±5% shell band is datamine dispersion, not hit probability. Estimated armour bands are separate modelling uncertainty. Ricochet, overmatch, projectile shatter, internal damage and blast are not fully simulated. A favourable result applies only to the selected zone and fit.</p><p>Optional full-calibre formula: P = v^1.43 × m^0.71 ÷ (1900^1.43 × (d/100)^1.07) × 100 × explosive-fill factor × cap factor. v in m/s, m in kg, d in mm. APCBC cap factor = 1; other supported AP types = 0.9. Range/angle retention comes from published tables. APDS/APFSDS and chemical rounds keep their own Wiki values.</p><div class="links"><a href="https://wiki.warthunder.com/jacob_de_marre" target="_blank" rel="noopener noreferrer">Official De Marre formula</a><a href="https://github.com/gszabi99/War-Thunder-Datamine/blob/a9a0b118899a33e17a80c0c64cce4e94b7bac3a2/aces.vromfs.bin_u/gamedata/damage_model/damage_system.blkx" target="_blank" rel="noopener noreferrer">Datamine dispersion</a></div><p>Opponent groups represent overlapping service eras and roles, not battle-rating matchmaking or proof of a historical encounter. The Centurion is explicitly a NATO peer. Wiki ammunition includes later unlocks and is not a year-exact issued-ammunition list.</p></details></div></section>
+<div style="height:16px"></div>
+<section class="card pad"><div class="sectionTitle" id="ammoTitle">WAR THUNDER PENETRATION TABLE // SELECTED GUN</div><div class="scroll"><table><thead><tr><th>Ammunition</th><th>Type</th><th>10 m</th><th>100 m</th><th>500 m</th><th>1,000 m</th><th>1,500 m</th><th>2,000 m</th><th>Explosive composition</th><th>Filler mass</th><th>TNT equivalent</th></tr></thead><tbody id="ammoTable"></tbody></table></div><div id="selectedAmmoDetails" aria-live="polite"></div><div class="source" id="ammoNote">Game statistics, not historical firing-trial measurements.</div></section>
+
+<div style="height:16px"></div>
+<section class="card pad">
+<div class="sectionTitle">Ammunition in motion</div>
+<div class="source" style="margin-top:0;margin-bottom:10px">
+Choose ammunition from this vehicle’s loadout. The matching shell mechanisms play below.
+<div class="controls"><label>Ammunition <select id="animationAmmo"></select></label></div>
+</div>
+<div class="scroll">
+<table>
+<thead><tr><th>Ammunition</th><th>Type</th><th>Animation</th></tr></thead>
+<tbody id="datamineShellTable"></tbody>
+</table>
+</div>
+<div class="note" style="margin-top:10px">
+<div id="animationNote"></div>
+</div>
+</section>
+
+</main>
+<footer><span>Armored Archive · Historical research &amp; War Thunder references</span><span>Fluent edition · Light &amp; dark themes</span></footer>
+<script>
+const families={
+iv:{label:"PANZER IV",variants:[
+{id:"f1",label:"F1",name:"Panzer IV Ausf. F1",br:"3.0",gun:"75 mm KwK 37 L/24",armor:{front:50,side:30,rear:20,turret:50},mass:"22.3 t",speed:"40 km/h",role:"Infantry-support medium tank",desc:"Short-barrel F-series vehicle. The F1 marks the final Panzer IV configuration centered on the short 7.5 cm weapon.",wt:[["K.Gr.rot Pz.","APHE",43,41,35,30,26,22],["Hl.Gr.38C","HEAT",80,80,80,80,80,80]]},
+{id:"f2",label:"F2",name:"Panzer IV Ausf. F2",br:"3.3",gun:"75 mm KwK 40 L/43",armor:{front:50,side:30,rear:20,turret:50},mass:"23.5 t",speed:"40 km/h",role:"Long-gun medium tank",desc:"The long-barrel KwK 40 changed the Panzer IV from an infantry-support design into a stronger anti-armour platform.",wt:[["PzGr 39","APCBC",137,135,123,110,98,87],["Hl.Gr 38B","HEAT",80,80,80,80,80,80],["PzGr 40","APCR",163,159,143,126,110,96]]},
+{id:"g",label:"G",name:"Panzer IV Ausf. G",br:"3.3",gun:"75 mm KwK 40 L/43",armor:{front:80,side:30,rear:20,turret:50},mass:"23.5 t",speed:"42 km/h",role:"Long-gun medium tank",desc:"The G introduced the heavier 80 mm frontal hull protection on later production vehicles.",wt:[["PzGr 39","APCBC",137,135,123,110,98,87],["Hl.Gr 38B","HEAT",80,80,80,80,80,80],["PzGr 40","APCR",163,159,143,126,110,96]]},
+{id:"h",label:"H",name:"Panzer IV Ausf. H",br:"4.0",gun:"75 mm KwK 40 L/48",armor:{front:80,side:30,rear:20,turret:50},mass:"26.4 t",speed:"39 km/h",role:"Mainline medium tank",desc:"The H added Schürzen side skirts and the longer L/48 gun. It became a major late-war Panzer IV production form.",wt:[["PzGr 39","APCBC",145,143,130,116,104,93],["Hl.Gr 38B","HEAT",80,80,80,80,80,80],["PzGr 40","APCR",182,177,159,140,122,107]]},
+{id:"j",label:"J",name:"Panzer IV Ausf. J",br:"4.0",gun:"75 mm KwK 40 L/48",armor:{front:80,side:30,rear:20,turret:50},mass:"25.0 t",speed:"38 km/h",role:"Simplified late-war medium tank",desc:"The J simplified production by removing the powered turret traverse motor and using a larger fuel capacity.",wt:[["PzGr 39","APCBC",145,143,130,116,104,93],["Hl.Gr 38B","HEAT",80,80,80,80,80,80],["PzGr 40","APCR",182,177,159,140,122,107]]},
+{id:"iv70v",label:"IV/70(V)",name:"Panzer IV/70(V)",br:"5.0",gun:"75 mm PaK 42 L/70",armor:{front:80,side:30,rear:20,turret:80},mass:"25.8 t",speed:"38 km/h",role:"Tank destroyer",desc:"A fixed-superstructure tank destroyer based on the Panzer IV chassis with the long 7.5 cm L/70.",wt:[["PzGr 39/42","APCBC",192,188,173,156,140,126],["PzGr 40/42","APCR",228,224,204,182,162,145]]}]},
+panther:{label:"PANTHER",variants:[
+{id:"d",label:"D",name:"Panther Ausf. D",br:"5.3",gun:"75 mm KwK 42 L/70",armor:{front:80,side:40,rear:40,turret:100},mass:"44.8 t",speed:"46 km/h",role:"Medium tank",desc:"Early production Panther with the original D-series turret arrangement.",wt:[["PzGr 39/42","APCBC",192,188,173,156,140,126],["PzGr 40/42","APCR",228,224,204,182,162,145]]},
+{id:"a",label:"A",name:"Panther Ausf. A",br:"5.7",gun:"75 mm KwK 42 L/70",armor:{front:80,side:40,rear:40,turret:100},mass:"44.8 t",speed:"46 km/h",role:"Medium tank",desc:"Improved turret and commander's cupola arrangement over the D series.",wt:[["PzGr 39/42","APCBC",192,188,173,156,140,126],["PzGr 40/42","APCR",228,224,204,182,162,145]]},
+{id:"g",label:"G",name:"Panther Ausf. G",br:"6.0",gun:"75 mm KwK 42 L/70",armor:{front:80,side:50,rear:40,turret:110},mass:"44.8 t",speed:"46 km/h",role:"Late-production medium tank",desc:"The G used a modified hull and thicker upper side armour; War Thunder lists 80/50/40 mm hull protection and 110/45/45 mm turret protection.",wt:[["PzGr 39/42","APCBC",192,188,173,156,140,126],["PzGr 40/42","APCR",228,224,204,182,162,145]]},
+{id:"f",label:"F",name:"Panther Ausf. F",br:"6.0",gun:"75 mm KwK 42 L/70",armor:{front:80,side:50,rear:40,turret:120},mass:"45.5 t",speed:"46 km/h",role:"Planned late-war Panther",desc:"Late-war Panther development with the planned Schmalturm turret. Production history was interrupted before a normal wartime series could mature.",wt:[["PzGr 39/42","APCBC",192,188,173,156,140,126],["PzGr 40/42","APCR",228,224,204,182,162,145]]},
+{id:"jagd",label:"Jagdpanther",name:"Jagdpanther",br:"6.0",gun:"88 mm PaK 43/4 L/71",armor:{front:80,side:50,rear:40,turret:80},mass:"46.0 t",speed:"46 km/h",role:"Tank destroyer",desc:"Panther-chassis tank destroyer. It is treated as its own vehicle and never as a Panther Ausf. A/D/G/F photo variant.",wt:[["PzGr 39/43","APCBC",237,233,217,207,195,183],["PzGr 40/43","APCR",272,267,248,236,222,208]]}]},
+tiger:{label:"TIGER I",variants:[
+{id:"h1",label:"H1",name:"Tiger I Ausf. H1",br:"5.7",gun:"88 mm KwK 36 L/56",armor:{front:100,side:82,rear:82,turret:100},mass:"56.9 t",speed:"38 km/h",role:"Heavy tank",desc:"Early production Tiger I configuration with the classic vertical armour layout.",wt:[["PzGr 39","APCBC",165,162,151,139,127,117],["PzGr.","APCBC",153,151,140,128,116,106],["Hl.Gr 39","HEAT",110,110,110,110,110,110],["PzGr 40","APCR",211,207,191,172,155,140]]},
+{id:"e",label:"E",name:"Tiger I Ausf. E",br:"5.7",gun:"88 mm KwK 36 L/56",armor:{front:100,side:82,rear:82,turret:120},mass:"57.0 t",speed:"38 km/h",role:"Late Tiger I heavy tank",desc:"The E incorporated production improvements including a revised cupola and later fittings.",wt:[["PzGr 39","APCBC",165,162,151,139,127,117],["PzGr.","APCBC",153,151,140,128,116,106],["Hl.Gr 39","HEAT",110,110,110,110,110,110],["PzGr 40","APCR",211,207,191,172,155,140]]}]},
+tiger2:{label:"TIGER II",variants:[
+{id:"pre",label:"Nr.1–50",name:"Tiger II Turm Nr.1–50",br:"6.3",gun:"88 mm KwK 43 L/71",armor:{front:150,side:80,rear:80,turret:100},mass:"68.5 t",speed:"38 km/h",role:"Early Tiger II / early turret",desc:"The first 50 Tiger IIs used the early curved cast turret. War Thunder identifies this as Tiger II (Turm Nr.1–50).",wt:[["PzGr 39/43","APCBC",237,233,217,207,195,183],["PzGr 40/43","APCR",272,267,248,236,222,208]]},
+{id:"h",label:"H",name:"Tiger II (Henschel turret)",br:"6.7",gun:"88 mm KwK 43 L/71",armor:{front:150,side:80,rear:80,turret:185},mass:"69.8 t",speed:"38 km/h",role:"Late Tiger II heavy tank",desc:"The later welded turret replaced the early curved turret and raised turret-front protection to about 185 mm in War Thunder.",wt:[["PzGr 39/43","APCBC",237,233,217,207,195,183],["PzGr 40/43","APCR",272,267,248,236,222,208]]}]},
+};
+Object.assign(families, window.ARMORED_POST_TIGER_CATALOG);
+for(const [key,addition] of Object.entries(EXPANDED_CATALOG)){
+ if(families[key])families[key].variants.push(...addition.variants);
+ else families[key]=addition;
+}
+for(const [key,patch] of Object.entries(EXPANDED_PATCHES)){
+ const [f,id]=key.split(':');const record=families[f]?.variants.find(v=>v.id===id);if(record)Object.assign(record,patch);
+}
+Object.assign(CLEAN_WT_CARDS,EXPANDED_CARDS);
+// Keep tank-destroyer configurations in their own family instead of Panzer IV variants.
+for(const [key,old] of Object.entries(window.CATALOG_KEY_ORIGINS||{})){
+ const [from,id]=old.split(':'),[to]=key.split(':');const group=families[from],index=group?.variants.findIndex(v=>v.id===id);
+ if(index>=0){const [record]=group.variants.splice(index,1);if(!families[to])families[to]={label:to==='jagdpanther'?'Jagdpanther':to,nation:record.nation||'Germany',variants:[]};families[to].variants.push(record);}
+ if(COMBAT_DATA.profiles[old]){COMBAT_DATA.profiles[key]=COMBAT_DATA.profiles[old];delete COMBAT_DATA.profiles[old];}
+ if(CLEAN_WT_CARDS[old])CLEAN_WT_CARDS[key]=CLEAN_WT_CARDS[old];
+}
+
+// Post-war vehicles carry the designations that replaced WWII medium/light/heavy classes (MBT, IFV, AFV …)
+const POSTWAR_FAMILY_ROLE={leopard1:'MBT',leopard2:'MBT',tam:'MBT',marder:'IFV',puma:'IFV',hs30:'IFV',luchs:'Reconnaissance AFV',raketenjagdpanzer:'ATGM carrier',
+ kanonen:'Tank destroyer',modern_artillery:'Self-propelled howitzer',flakpanzer:'SPAAG',proto_cold_mbt:'MBT'};
+const POSTWAR_ROLE={'wiesel:germ_wiesel_1_tow':'Airborne ATGM carrier','wiesel:germ_wiesel_1_mk20':'Airborne AFV (20 mm)','sdkfz_light:germ_sdkfz_222':'Armoured car (20 mm)','boxer:germ_boxer_swatrinf':'AFV (heavy weapon carrier)','boxer:germ_vilkas':'IFV',
+ 'modern_aa:germ_wiesel_2_adwc':'SHORAD vehicle','modern_aa:germ_flarakpz_1':'SAM system','modern_aa:germ_flarakrad':'SAM system','modern_aa:germ_iris_slm_fcs':'SAM radar & fire control','modern_aa:germ_iris_slm_launcher':'SAM system',
+ 'proto_cold_mbt:germ_vt_1_2':'MBT test bed','proto_cold_light:germ_ru251':'Reconnaissance light tank','proto_cold_light:germ_marder_df_105':'Fire-support vehicle','proto_cold_light:germ_marder_clovis':'Fire-support vehicle',
+ 'proto_cold_light:germ_spz_oerlikon_raketenautomat':'ATGM carrier','proto_cold_light:germ_begleitpanzer_57':'Escort AFV','proto_cold_light:germ_th_800_bismark':'Wheeled AFV','proto_cold_light:germ_th_400':'Light tank',
+ 'proto_cold_light:germ_radpanzer_90':'Wheeled AFV','proto_modern:germ_boxer_3105':'AFV (mobile gun system)','proto_modern:germ_embt':'MBT'};
+function postwarRole(f,id){return POSTWAR_ROLE[f+':'+id]||POSTWAR_FAMILY_ROLE[f]||null;}
+for(const [f,group] of Object.entries(families)){
+ group.variants=group.variants.filter(v=>TANK_COLLECTION_SCOPE[f+':'+v.id]);
+ group.variants.forEach(v=>v.role=postwarRole(f,v.id)||TANK_COLLECTION_SCOPE[f+':'+v.id].role);
+ if(!group.variants.length)delete families[f];
+}
+for(const key of Object.keys(COMBAT_DATA.profiles))if(!TANK_COLLECTION_SCOPE[key])delete COMBAT_DATA.profiles[key];
+
+const enemies=[
+["T-34-85 BR-365K","APHEBC",[148,143,123,106]],["M4A3E8 M62","APCBC",[149,139,126,119]],["M36 M82","APCBC",[185,172,161,151]],["IS-2 BR-471","APHE",[205,190,172,161]],["Firefly Shot Mk.8","APCBC",[171,160,145,133]]
+];
+
+/* ---------- IMAGE SOURCES ----------
+   1) War Thunder Wiki vehicle art (exact variant, keyed by War Thunder vehicle ID)
+   2) Real photos found live on Wikimedia Commons (search per variant, with credit + licence)  */
+const FAM_RE={
+ iv:/\bpanzer\s*iv\b|\bpz\.?\s*kpfw\.?\s*iv\b|\bpanzerkampfwagen\s*iv\b/i,
+ panther:/\bpanther\b|\bpanzer\s*v\b|\bpz\.?\s*kpfw\.?\s*v\b|\bjagdpanther\b/i,
+ tiger:/\btiger\s*i\b|\btiger\s*vi\b|\bpanzer\s*vi\b|\bpz\.?\s*kpfw\.?\s*vi\b/i,
+ jagdtiger:/\bjagdtiger\b|\bjagdpanzer\s*vi\b/i,
+ sturmtiger:/\bsturmtiger\b|\bsturmm[oö]rser\s*tiger\b|\btiger-m[oö]rser\b/i,
+ tiger2:/\btiger\s*ii\b|\btiger\s*2\b|\bk[öo]nigstiger\b|\bkonigstiger\b/i,
+ leopard1:/\bleopard\s*1\b|\bleopard\s*i\b/i,
+ flakpanzer:/\bgepard\b|\bflakpanzer\b/i,
+ raketenjagdpanzer:/\braketenjagdpanzer\b|\brakjpz\b|\bjaguar\s*1\b/i,
+ marder:/\bmarder\s*1\b/i
+};
+
+/* Legacy WW2 rules. Sturmtiger and Cold War galleries use the broader shared
+   metadata classifier in vehicle_media.js, with explicit confidence labels. */
+const VARIANT_RULES={
+ "iv:f1":   {allow:/\bpanzer\s*iv\b.*\bausf\.?\s*f1\b|\bausf\.?\s*f1\b/i, deny:/\bf2\b|\bausf\.?\s*[ghj]\b|\biv\/70\b/i, max:6},
+ "iv:f2":   {allow:/\bpanzer\s*iv\b.*\bausf\.?\s*f2\b|\bausf\.?\s*f2\b/i, deny:/\bausf\.?\s*[fghj]\b(?!2)|\biv\/70\b/i, max:6},
+ "iv:g":    {allow:/\bpanzer\s*iv\b.*\bausf\.?\s*g\b|\bausf\.?\s*g\b/i, deny:/\bausf\.?\s*[fhj]\b|\bf2\b|\biv\/70\b/i, max:6},
+ "iv:h":    {allow:/\bpanzer\s*iv\b.*\bausf\.?\s*h\b|\bausf\.?\s*h\b/i, deny:/\bausf\.?\s*[fgj]\b|\bf2\b|\biv\/70\b/i, max:6},
+ "iv:j":    {allow:/\bpanzer\s*iv\b.*\bausf\.?\s*j\b|\bausf\.?\s*j\b/i, deny:/\bausf\.?\s*[fgh]\b|\bf2\b|\biv\/70\b/i, max:6},
+ "iv:iv70v":{allow:/\bpanzer\s*iv\/?70\b|\biv\/?70\b|\bjagdpanzer\s*iv\b.*\bl\/?70\b|\bl\/?70\b/i, deny:/\bausf\.?\s*[fghj]\b/i, max:6},
+ "panther:d":{allow:/\bpanther\s*(?:ausf\.?\s*)?d\b|\bpanzer\s*v\b.*\bausf\.?\s*d\b/i, deny:/\bpanther\s*(?:ausf\.?\s*)?[agf]\b|\bjagdpanther\b|\bpanther\s*ii\b/i, max:1},
+ "panther:a":{allow:/\bpanther\s*(?:ausf\.?\s*)?a\b|\bpanzer\s*v\b.*\bausf\.?\s*a\b/i, deny:/\bpanther\s*(?:ausf\.?\s*)?[dgf]\b|\bjagdpanther\b|\bpanther\s*ii\b/i, max:6},
+ "panther:g":{allow:/\bpanther\s*(?:ausf\.?\s*)?g\b|\bpanzer\s*v\b.*\bausf\.?\s*g\b/i, deny:/\bpanther\s*(?:ausf\.?\s*)?[daf]\b|\bjagdpanther\b|\bpanther\s*ii\b/i, max:6},
+ "panther:f":{allow:/\bpanther\s*(?:ausf\.?\s*)?f\b|\bschmalturm\b/i, deny:/\bpanther\s*(?:ausf\.?\s*)?[dag]\b|\bjagdpanther\b|\bpanther\s*ii\b/i, max:6},
+ "panther:jagd":{allow:/\bjagdpanther\b|\bpanzerj[aä]ger\s*v\b.*\bjagdpanther\b/i, deny:/\bpanther\s*(?:ausf\.?\s*)?[dagf]\b|\bpanther\s*ii\b/i, max:6},
+ "tiger:h1": {allow:/\btiger\s*i\s*(?:ausf\.?\s*)?h1\b|\bausf\.?\s*h1\b|\btiger\s*vi\s*(?:ausf\.?\s*)?h1\b/i, deny:/\btiger\s*i\s*(?:ausf\.?\s*)?e\b|\bausf\.?\s*e\b|\btiger\s*ii\b|\bjagdtiger\b|\bsturmtiger\b/i, max:6},
+ "tiger:e":  {allow:/\btiger\s*i\s*(?:ausf\.?\s*)?e\b|\btiger\s*vi\s*(?:ausf\.?\s*)?e\b|\bausf\.?\s*e\b/i, deny:/\bausf\.?\s*h1\b|\btiger\s*ii\b|\bjagdtiger\b|\bsturmtiger\b/i, max:6},
+ "tiger2:pre":{allow:/\btiger\s*ii\b|\btiger\s*2\b|\bkonigstiger\b|\bk[öo]nigstiger\b|\bporsche\s*turret\b|\bturm\s*nr\.?\s*1[-–]50\b|\bpre[- ]?production\b.*(?:tiger|ii|2)|\bprototype\b.*(?:tiger|ii|2)/i, deny:/\bhenschel\b.*(?:turret|late)|\blate\s*turret\b/i, max:12},
+ "jagdtiger:porsche":{allow:/\bjagdtiger\b|\bjagdpanzer\s*vi\b/i,deny:/\bhenschel\b/i,max:10},
+ "jagdtiger:henschel":{allow:/\bjagdtiger\b|\bjagdpanzer\s*vi\b/i,deny:/\bporsche\b/i,max:10},
+ "sturmtiger:prototype":{allow:/\bsturmtiger\b|\bsturmm[oö]rser\s*tiger\b|\btiger-m[oö]rser\b/i,deny:/\bmodel\b|\breplica\b/i,max:10},
+ "sturmtiger:production":{allow:/\bsturmtiger\b|\bsturmm[oö]rser\s*tiger\b|\btiger-m[oö]rser\b/i,deny:/\bprototype\b|\bpre-production\b/i,max:10},
+ "tiger2:h": {allow:/\btiger\s*ii\b.*(?:henschel|h\s*turret)|\bhenschel\s*turret\b|\bkonigstiger\b.*\bhenschel\b|\bk[öo]nigstiger\b.*\bhenschel\b/i, deny:/\bporsche\b|\bturm\s*nr\.?\s*1[-–]50\b|\bearly\s*turret\b/i, max:6},
+ "leopard1:a0":{allow:/\bleopard\s*1\b|\bleopard\s*i\b/i,deny:/\bleopard\s*2\b|\ba1\b|\ba5\b/i,max:6},
+ "leopard1:a1":{allow:/\bleopard\s*1\s*a1\b|\bleopard\s*1a1\b/i,deny:/\bleopard\s*2\b/i,max:6},
+ "leopard1:a5":{allow:/\bleopard\s*1\s*a5\b|\bleopard\s*1a5\b/i,deny:/\bleopard\s*2\b/i,max:6},
+ "flakpanzer:gepard":{allow:/\bflakpanzer\s*gepard\b|\bgepard\b/i,deny:/\bleopard\s*2\b/i,max:6},
+ "raketenjagdpanzer:rakjpz1":{allow:/\braketenjagdpanzer\s*1\b|\brakjpz\s*1\b/i,deny:/\braketenjagdpanzer\s*2\b|\bjaguar\b/i,max:6},
+ "raketenjagdpanzer:rakjpz2":{allow:/\braketenjagdpanzer\s*2\b|\brakjpz\s*2\b/i,deny:/\braketenjagdpanzer\s*1\b|\bjaguar\b/i,max:6},
+ "raketenjagdpanzer:jaguar1":{allow:/\bjaguar\s*1\b|\bjaguar\b.*\batgm\b/i,deny:/\braketenjagdpanzer\s*[12]\b/i,max:6},
+ "marder:a3":{allow:/\bmarder\s*1\s*a3\b|\bmarder\s*1a3\b/i,deny:/\bmarder\s*1a4\b|\bmarder\s*1a5\b/i,max:6},
+ "marder:a5":{allow:/\bmarder\s*1\s*a5\b|\bmarder\s*1a5\b/i,deny:/\bmarder\s*1a3\b|\bmarder\s*1a4\b/i,max:6}
+};
+
+const BAD=/\b(model|models|modell|toy|lego|diorama|replica|tamiya|dragon|revell|airfix|trumpeter|world of tanks|wot|war thunder|screenshot|game|drawing|illustration|blueprint|diagram|sketch|stamp|coin|cosplay|paper|caterpillar|excavator|sherman|m4a[0-9]|m3 lee|m3 stuart|t-34|churchill|comet|firefly|is-2|is2|kv-1|kv1|panzer iii|panzer ii)\b/i;
+
+const MEDIA={
+ "iv:f1":{g:"germ_pzkpfw_iv_ausf_f",q:"Panzer IV Ausf. F1"},
+ "iv:f2":{g:"germ_pzkpfw_iv_ausf_f2",q:"Panzer IV Ausf. F2"},
+ "iv:g":{g:"germ_pzkpfw_iv_ausf_g",q:"Panzer IV Ausf. G"},
+ "iv:h":{g:"germ_pzkpfw_iv_ausf_h",q:"Panzer IV Ausf. H"},
+ "iv:j":{g:"germ_pzkpfw_iv_ausf_j",q:"Panzer IV Ausf. J"},
+ "iv:iv70v":{g:"germ_pz_iv_l70",q:"Panzer IV/70(V) Jagdpanzer IV L/70"},
+ "panther:d":{g:"germ_pzkpfw_V_ausf_d_panther",q:"Panther Ausf. D"},
+ "panther:a":{g:"germ_pzkpfw_V_ausf_a_panther",q:"Panther Ausf. A"},
+ "panther:g":{g:"germ_pzkpfw_V_ausf_g_panther",q:"Panther Ausf. G"},
+ "panther:f":{g:"germ_pzkpfw_v_ausf_f_panther",q:"Panther Ausf. F Schmalturm"},
+ "panther:jagd":{g:"germ_jagdpanther",q:"Jagdpanther"},
+ "tiger:h1":{g:"germ_pzkpfw_VI_ausf_h1_tiger",q:"Tiger I Ausf. H1"},
+ "tiger:e":{g:"germ_pzkpfw_vi_ausf_e_tiger",q:"Tiger I Ausf. E"},
+ "tiger2:pre":{g:"germ_pzkpfw_VI_ausf_b_tiger_IIp",q:"Tiger II Porsche turret pre-production prototype early turret"},
+ "tiger2:h":{g:"germ_pzkpfw_VI_ausf_b_tiger_IIh",q:"Tiger II Henschel turret"},
+};
+
+const WT_CARDS = {
+  "sturmtiger:prototype": {
+    "art": "/vehicle_images/wt-germ_sturmmorser_sturmtiger.jpg",
+    "social": "https://wiki.warthunder.com/assets/gunit_social/germ_sturmmorser_sturmtiger.jpg",
+    "page": "https://wiki.warthunder.com/unit/germ_sturmmorser_sturmtiger",
+    "kind": "wt",
+    "name": "38 cm Sturmmörser",
+    "reference": true,
+    "note": "War Thunder production-vehicle reference; not the October 1943 prototype."
+  },
+  "sturmtiger:production": {
+    "art": "/vehicle_images/wt-germ_sturmmorser_sturmtiger.jpg",
+    "social": "https://wiki.warthunder.com/assets/gunit_social/germ_sturmmorser_sturmtiger.jpg",
+    "page": "https://wiki.warthunder.com/unit/germ_sturmmorser_sturmtiger",
+    "kind": "wt",
+    "name": "38 cm Sturmmörser",
+    "reference": false,
+    "note": ""
+  },
+  "leopard1:a0": {
+    "art": "/vehicle_images/wt-germ_leopard_i.jpg",
+    "social": "https://wiki.warthunder.com/assets/gunit_social/germ_leopard_i.jpg",
+    "page": "https://wiki.warthunder.com/unit/germ_leopard_I",
+    "kind": "wt",
+    "name": "Leopard I",
+    "reference": false,
+    "note": ""
+  },
+  "leopard1:a1": {
+    "art": "/vehicle_images/wt-germ_leopard_i_a1.jpg",
+    "social": "https://wiki.warthunder.com/assets/gunit_social/germ_leopard_i_a1.jpg",
+    "page": "https://wiki.warthunder.com/unit/germ_leopard_I_a1",
+    "kind": "wt",
+    "name": "Leopard A1A1",
+    "reference": true,
+    "note": "Related upgraded Leopard A1A1 game vehicle; the archive record is the earlier A1."
+  },
+  "leopard1:a5": {
+    "art": "/vehicle_images/wt-germ_leopard_1a5.jpg",
+    "social": "https://wiki.warthunder.com/assets/gunit_social/germ_leopard_1a5.jpg",
+    "page": "https://wiki.warthunder.com/unit/germ_leopard_1a5",
+    "kind": "wt",
+    "name": "Leopard 1A5",
+    "reference": false,
+    "note": ""
+  },
+  "flakpanzer:gepard": {
+    "art": "/vehicle_images/wt-germ_flakpz_i_gepard.jpg",
+    "social": "https://wiki.warthunder.com/assets/gunit_social/germ_flakpz_i_gepard.jpg",
+    "page": "https://wiki.warthunder.com/unit/germ_flakpz_I_Gepard",
+    "kind": "wt",
+    "name": "Gepard",
+    "reference": false,
+    "note": ""
+  },
+  "raketenjagdpanzer:rakjpz1": {
+    "art": "/vehicle_images/wt-germ_raketenjagdpanzer_2.jpg",
+    "social": "https://wiki.warthunder.com/assets/gunit_social/germ_raketenjagdpanzer_2.jpg",
+    "page": "https://wiki.warthunder.com/unit/germ_raketenjagdpanzer_2",
+    "kind": "wt",
+    "name": "RakJPz 2",
+    "reference": true,
+    "note": "Related missile carrier reference with a different chassis; War Thunder has no separate Raketenjagdpanzer 1 card in this catalogue."
+  },
+  "raketenjagdpanzer:rakjpz2": {
+    "art": "/vehicle_images/wt-germ_raketenjagdpanzer_2.jpg",
+    "social": "https://wiki.warthunder.com/assets/gunit_social/germ_raketenjagdpanzer_2.jpg",
+    "page": "https://wiki.warthunder.com/unit/germ_raketenjagdpanzer_2",
+    "kind": "wt",
+    "name": "RakJPz 2",
+    "reference": false,
+    "note": ""
+  },
+  "raketenjagdpanzer:jaguar1": {
+    "art": "/vehicle_images/wt-germ_raketenjagdpanzer_2_hot.jpg",
+    "social": "https://wiki.warthunder.com/assets/gunit_social/germ_raketenjagdpanzer_2_hot.jpg",
+    "page": "https://wiki.warthunder.com/unit/germ_raketenjagdpanzer_2_hot",
+    "kind": "wt",
+    "name": "RakJPz 2 (HOT)",
+    "reference": true,
+    "note": "War Thunder HOT-equipped reference for the Jaguar 1 development family."
+  },
+  "marder:a3": {
+    "art": "/vehicle_images/wt-germ_marder_1a3.jpg",
+    "social": "https://wiki.warthunder.com/assets/gunit_social/germ_marder_1a3.jpg",
+    "page": "https://wiki.warthunder.com/unit/germ_marder_1a3",
+    "kind": "wt",
+    "name": "Marder 1A3",
+    "reference": false,
+    "note": ""
+  },
+  "marder:a5": {
+    "art": "/vehicle_images/wt-germ_marder_1a3.jpg",
+    "social": "https://wiki.warthunder.com/assets/gunit_social/germ_marder_1a3.jpg",
+    "page": "https://wiki.warthunder.com/unit/germ_marder_1a3",
+    "kind": "wt",
+    "name": "Marder 1A3",
+    "reference": true,
+    "note": "Related Marder 1A3 game vehicle; the archive record is the mine-protected 1A5."
+  }
+};
+
+function exactVariantMatch(key,title,metaText){
+ const r=VARIANT_RULES[key]; if(!r)return false;
+ const t=(title+" "+metaText).replace(/[–—]/g,"-");
+ if(BAD.test(t)||r.deny.test(t))return false;
+ return r.allow.test(t);
+}
+
+const mediaCache={};let curKey="",sel=0,items=[];
+const plain=h=>new DOMParser().parseFromString(h||"","text/html").body.textContent.replace(/\s+/g," ").trim();
+function getLegacyPhotos(key){
+ if(mediaCache[key])return mediaCache[key];
+ const [f,id]=key.split(":");
+ const curated=families[f]?.variants.find(v=>v.id===id)?.photos;
+ if(curated)return Promise.resolve(curated);
+ const m=MEDIA[key],rule=VARIANT_RULES[key];
+ const queries=[m.q];
+ if(key==="tiger2:pre") queries.push("Tiger II early turret","Tiger II pre production","Tiger II prototype Bovington","King Tiger early turret","Tiger II V2");
+ return mediaCache[key]=(async()=>{
+  try{
+   const all=new Map();
+   for(const query of queries){
+    const r=await fetch("/api/photos?"+new URLSearchParams({query,limit:"50"}));
+    if(!r.ok)continue;
+    const j=await r.json();
+    for(const p of (Array.isArray(j)?j:[])){
+     const title=p.title||"", desc=p.description||"", obj=p.objectName||"";
+     const txt=(title+" "+desc+" "+obj).replace(/[–—]/g,"-");
+     if(BAD.test(txt))continue;
+     let score=0;
+     if(exactVariantMatch(key,title,desc+" "+obj))score+=100;
+     if(key==="tiger2:pre"){
+      if(/early turret|pre[- ]?production|prototype|turm nr|nr\.?\s*1[-–]50|v2\b|bovington|canteloup|chateaudun|porsche turret|krupp turret/i.test(txt))score+=45;
+      if(/tiger\s*ii|king\s*tiger|konigstiger|koenigstiger/i.test(txt))score+=25;
+      if(/henschel turret|late turret|production turret/i.test(txt))score-=70;
+     }else if(FAM_RE[f]&&FAM_RE[f].test(txt))score+=20;
+     if(score<=0)continue;
+     const id=p.pageid||p.full||p.title;
+     if(!all.has(id))all.set(id,{...p,match:score>=100,score});
+    }
+   }
+   return [...all.values()].sort((a,b)=>b.score-a.score).slice(0,key==="tiger2:pre"?12:(rule.max||8));
+  }catch(e){console.warn("photo lookup failed",e);return[]}
+ })();
+}
+function setSrc(el,list,cls){let i=0;el.classList.toggle("art",cls);el.onerror=()=>{if(++i<list.length)el.src=list[i];else el.removeAttribute("src")};el.src=list[0]}
+function show(i){
+  if(!items[i])return;
+  $("heroImg").hidden=false;$("variantImg").hidden=false;
+  $("heroImg").alt=$("variantImg").alt=items[i].kind==="wt"?"War Thunder card: "+(items[i].name||current().name):(items[i].title||current().name);
+  sel=i;const it=items[i],cap=$("imgSource");cap.textContent="";
+ const link=(href,t)=>{const a=document.createElement("a");a.href=href;a.target="_blank";a.rel="noopener noreferrer";a.textContent=t;a.style.color="var(--accent)";return a};
+ if(it.kind==="wt"){
+  setSrc($("heroImg"),[it.art,it.social],true);setSrc($("variantImg"),[it.art,it.social],true);
+  cap.append("War Thunder card: "+(it.name||current().name)+" · © Gaijin Games Kft. · "+(it.note||"In-game vehicle reference.")," ",link(it.page,"Open wiki page"));
+ }else{
+  setSrc($("heroImg"),[it.thumb,it.full],false);setSrc($("variantImg"),[it.thumb,it.full],false);
+  const t=document.createElement("b");t.className=it.match?"tagok":"tagwarn";t.textContent=it.matchLabel||(it.match?"VARIANT MATCH":"FAMILY PHOTO (variant not confirmed)");
+  cap.append(t," · ",it.title," · ",(it.artist||"Unknown author")+(it.lic?" · "+it.lic:"")," · ",link(it.page,it.sourceName||"Wikimedia Commons"));
+   if(it.licenseUrl)cap.append(" · ",link(it.licenseUrl,"Licence"));
+   if(it.identification)cap.append(" · ",it.identification);
+ }
+ document.querySelectorAll(".thumb").forEach((b,k)=>b.classList.toggle("active",Number(b.dataset.index??k)===i));
+}
+function drawThumbs(){
+ const box=$("thumbs");box.textContent="";
+ items.forEach((it,i)=>{
+  const b=document.createElement("button");b.className="thumb"+(it.kind==="wt"?" wt":"");b.title=it.kind==="wt"?"War Thunder card: "+(it.name||current().name):it.title;
+  const im=document.createElement("img");im.loading="lazy";im.alt="";im.src=it.kind==="wt"?it.art:it.thumb;im.onerror=()=>{if(it.kind==="wt"&&im.src!==it.social)im.src=it.social;else b.style.display="none"};
+  const l=document.createElement("b");l.textContent=it.kind==="wt"?"WT CARD":"PHOTO";
+  b.append(im,l);b.onclick=()=>show(i);box.append(b);
+ });
+}
+function clearMedia(){
+ sel=0;items=[];
+ for(const id of ["heroImg","variantImg"]){const el=$(id);el.onerror=null;el.removeAttribute("src");el.hidden=true;el.classList.remove("art")}
+ $("imgSource").textContent="";$("thumbs").textContent="";
+}
+let mediaRevision=0;
+function initMedia(){
+ const v=current(),key=family+":"+v.id,m=MEDIA[key],revision=++mediaRevision;curKey=key;
+ clearMedia();
+ const L=(h,t)=>`<a href="${h}" target="_blank" rel="noopener noreferrer">${t}</a>`;
+ const links=[L("https://commons.wikimedia.org/w/index.php?ns6=1&search="+encodeURIComponent(m?.q||v.name),"Wikimedia Commons ↗"),L("https://tankmuseum.org/search/?query="+encodeURIComponent(v.name),"The Tank Museum ↗")];
+ let art=window.CLEAN_WT_CARDS[key]||WT_CARDS[key];
+ if(!art&&m?.g){const gl=m.g.toLowerCase();art={kind:"wt",art:`https://static.encyclopedia.warthunder.com/images/${gl}.png`,social:`https://wiki.warthunder.com/assets/gunit_social/${gl}.jpg`,page:`https://wiki.warthunder.com/unit/${m.g}`}}
+ const bundled=(v.photos||[]).map(p=>({...p,kind:"photo"}));
+ items=[...(art?[art]:[]),...bundled];
+ if(art)links.unshift(L(art.page,"War Thunder Wiki ↗"));
+ $("mediaLinks").innerHTML=links.join("");drawThumbs();if(items.length)show(0);
+ if(!VehicleMedia.families[family]){
+  if(v.photos){$("mediaNote").textContent=v.photos.length?"Bundled photograph selected for this vehicle. Identification, credit and licence are shown above.":"War Thunder vehicle artwork. Historical development and game-reference specifications are linked below.";return}
+  $("mediaNote").textContent="Looking up real photographs…";
+  getLegacyPhotos(key).then(ph=>{if(revision!==mediaRevision)return;items=[...(art?[art]:[]),...ph.map(p=>({kind:"photo",...p}))];drawThumbs();if(items.length)show(Math.min(sel,items.length-1));$("mediaNote").textContent=ph.length?`${ph.length} real photographs found.`:"No suitable photographs found; vehicle art remains available."});return;
+ }
+ $("mediaNote").textContent="War Thunder card first. Loading a broader web-photo gallery…";
+ const update=async(attempt=0)=>{
+  try{
+   const response=await fetch("/api/vehicle-photos?"+new URLSearchParams({key}));if(!response.ok)throw new Error("Photo service "+response.status);
+   const result=await response.json();if(revision!==mediaRevision)return;
+   const chosen=items[sel],chosenId=chosen?.kind==="wt"?"wt":VehicleMedia.photoId(chosen||{});
+   const byId=new Map();
+   // Prefer bundled copies when the live gallery returns the same Commons file.
+   for(const p of [...bundled,...(result.photos||[])]){const id=VehicleMedia.photoId(p);if(!byId.has(id))byId.set(id,p)}
+   const photos=[...byId.values()].sort((a,b)=>(b.score||100)-(a.score||100));
+   items=[...(art?[art]:[]),...photos];drawThumbs();
+   const index=items.findIndex(p=>(p.kind==="wt"?"wt":VehicleMedia.photoId(p))===chosenId);if(items.length)show(Math.max(0,index));
+   const exact=photos.filter(p=>p.match).length;
+   $("mediaNote").textContent=`War Thunder card first · ${photos.length} photographs · ${exact} with variant metadata. Family and caption mentions are labelled; exact variants may differ.`+(result.refreshing?" Refreshing web sources…":"");
+   if(result.refreshing&&attempt<6)setTimeout(()=>{if(revision===mediaRevision)update(attempt+1)},[1500,2500,4000,7000,10000,15000][attempt]);
+  }catch(e){if(revision===mediaRevision)$("mediaNote").textContent="Web photos are unavailable right now. The War Thunder card and bundled photographs remain available."}
+ };
+ update();
+}
+
+let family="iv", variant="h";
+const $=id=>document.getElementById(id);
+const fluentFamilyNames={iv:"Panzer IV",panther:"Panther",tiger:"Tiger I",tiger2:"Tiger II",jagdtiger:"Jagdtiger",sturmtiger:"Sturmtiger",leopard1:"Leopard 1",flakpanzer:"Gepard",raketenjagdpanzer:"Raketenjagdpanzer",marder:"Marder"};
+function current(){const v=families[family].variants.find(v=>v.id===variant)||families[family].variants[0]; if(!v.nation)v.nation=(["iv","panther","tiger","jagdtiger","sturmtiger","tiger2"].includes(family))?"Germany":(["leopard1","flakpanzer","raketenjagdpanzer","marder"].includes(family)?"West Germany":"Unknown"); return v}
+// Families listed in the order they first entered German service (prototype families by the year of their first design)
+const FAMILY_FIRST_SERVICE={panzer2:1936,sdkfz_light:1936.1,panzer3:1937,iv:1937.1,czech:1939,marder_ww2:1940,stug:1940.1,artillery:1942,tiger:1942.1,
+ sdkfz234:1943,flak_early:1939.5,flak_heavy:1943.4,halftracks:1944.05,flak_panzer4:1944.25,panther:1943.1,nashorn:1943.2,ferdinand:1943.3,jagdpanzer:1944,jagdpanther:1944.1,tiger2:1944.2,jagdtiger:1944.3,sturmtiger:1944.4,
+ hs30:1960,flakpanzer:1976,modern_aa:1981,raketenjagdpanzer:1961,leopard1:1965,kanonen:1966,marder:1971,luchs:1975,leopard2:1979,tam:1983,wiesel:1990,modern_artillery:1998,boxer:2011,puma:2015,
+ proto_early:1938,proto_ww2_td:1941,proto_ww2_tanks:1942,proto_ww2_aa:1944.5,proto_cold_light:1960.5,proto_cold_mbt:1963,proto_modern:2010};
+function renderFamilies(){
+ const section=current().collection||'production';
+ const query=$('vehicleSearch').value.toLowerCase().trim();
+ const entries=Object.entries(families).sort(([a],[b])=>(FAMILY_FIRST_SERVICE[a]??9999)-(FAMILY_FIRST_SERVICE[b]??9999)).filter(([k,f])=>f.variants.some(v=>(v.collection||'production')===section)).filter(([k,f])=>!query||[f.label,...f.variants.filter(v=>(v.collection||'production')===section).map(v=>v.name)].join(' ').toLowerCase().includes(query));
+ $('vehicleTabs').innerHTML=entries.map(([k,f])=>`<button class="tab ${k===family?'active':''}" data-f="${k}" aria-pressed="${k===family}">${fluentFamilyNames[k]||f.label}</button>`).join('')||'<p class="source">No matching vehicle family in this section.</p>';
+ document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{family=b.dataset.f;const candidates=families[family].variants.filter(v=>(v.collection||'production')===section);variant=(candidates.find(v=>query&&v.name.toLowerCase().includes(query))||candidates[0]).id;renderAll()});
+ document.querySelectorAll('[data-collection]').forEach(b=>{b.classList.toggle('active',b.dataset.collection===section);b.setAttribute('aria-pressed',String(b.dataset.collection===section))});
+ const count=Object.values(families).flatMap(f=>f.variants).filter(v=>(v.collection||'production')===section).length;
+ $('collectionCount').textContent=count+' vehicle configurations';
+}
+
+function renderAmmo(v){
+ const historical=!!v.dataBasis;
+ $("ammoTitle").textContent=historical?"HISTORICAL AMMUNITION // SELECTED WEAPON":"WAR THUNDER PENETRATION TABLE // SELECTED GUN";
+ const rows=historical?v.ammo:(v.wt||[]);
+ $("ammoTable").innerHTML=(rows||[]).map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td>${(historical?Array(6).fill("—"):r.slice(2)).map(n=>`<td>${n}</td>`).join("")}</tr>`).join("")||'<tr><td colspan="8">No verified ammunition data is available for this configuration.</td></tr>';
+ $("ammoNote").textContent=historical?"Ammunition types are historical. Dashes mean no verified game penetration table is supplied; they do not mean zero penetration. Missile fits and ammunition vary by service configuration.":"Game statistics, not historical firing-trial measurements.";
+}
+function renderAll(){
+ const v=current(), f=families[family];
+ renderFamilies();
+ $("heroEyebrow").textContent=(fluentFamilyNames[family]||f.label)+" / Vehicle family";
+ $("heroName").textContent=v.name;
+ const h=window.VEHICLE_HISTORY?.[family+':'+variant]||window.VEHICLE_HISTORY?.[family+':'+v.id]||null;
+ // the catalogue's generic "is a vehicle represented in…" / "This entry represents…" sentences add nothing next to the history
+ const plainDesc=String(v.desc||'').split(/(?<=\.)\s+/).filter(t=>!/represented in Germany’s War Thunder collection|^This entry represents/.test(t)).join(' ');
+ $("heroLead").textContent=h?.text||v.desc;
+
+ $("heroMeta").innerHTML=[v.role,v.gun,v.developmentStatus].filter(Boolean).map(x=>`<span class="pill">${x}</span>`).join("");
+ // some wiki imports repeat the two listed weights ("58.1 55.2 58.1 55.2 t"): show them once
+ const mass=String(v.mass||'').replace(/^([\d.]+) ([\d.]+) \1 \2 t$/,'$1 t / $2 t');
+ const mfrTitle=h?(h.mfrSource==='wiki'?'Manufacturer as listed by the War Thunder Wiki':'Manufacturer from historical sources (the War Thunder Wiki lists none)'):'';
+ $("specs").innerHTML=[["Manufacturer",h?.mfr,mfrTitle],["Main weapon",v.gun],["Mass",mass],["Top speed",v.speed],["Role",v.role],["Configuration",v.label],["Production",h?.prod],["Number built",h?.built]].filter(x=>x[1]).map(x=>`<div class="spec"${x[2]?` title="${x[2]}"`:''}><span class="muted">${x[0]}</span><b>${x[1]}</b></div>`).join("");
+ $("variantChoiceTitle").textContent=family.startsWith("proto_")||["artillery","modern_aa","flak_early","halftracks","sdkfz_light","jagdpanzer","boxer"].includes(family)?"Choose a vehicle":"Choose a variant";
+ $("variants").innerHTML=f.variants.filter(x=>(x.collection||"production")===(v.collection||"production")).map(x=>`<button class="variant ${x.id===variant?"active":""}" data-v="${x.id}" aria-pressed="${x.id===variant}"><b>${x.label}</b><small>${x.name.replace("Panzer ","").replace("Tiger I ","").replace("Tiger II ","").replace("Panther ","")}</small></button>`).join("");
+ document.querySelectorAll("[data-v]").forEach(b=>b.onclick=()=>{variant=b.dataset.v;renderAll()});
+ $("variantName").textContent=v.name;$("variantDesc").textContent=plainDesc||v.desc;
+ $("variantKV").innerHTML=[["Manufacturer",h?.mfr,mfrTitle],["Built by",h&&h.by&&h.by!==h.mfr?h.by:null,'Historical builders and production sites'],["Main weapon",v.gun],["Mass",mass],["Speed",v.speed],["Role",v.role],["Family",f.label],["Production",h?.prod],["Number built",h?.built]].filter(x=>x[1]).map(x=>`<div${x[2]?` title="${x[2]}"`:''}><span>${x[0]}</span><b>${x[1]}</b></div>`).join("");
+ $("shell").innerHTML=enemies.map((e,i)=>`<option value="${i}">${e[0]}</option>`).join("");
+  renderAmmo(v);
+  $("technicalNote").hidden=!v.technicalNote;$("technicalNote").textContent=v.technicalNote||"";
+  const sources=$("recordSources");sources.textContent="";
+  const srcList=[...(v.sources||[])];const haveUrl=new Set(srcList.map(x=>x[1]));
+  if(h?.wiki&&!haveUrl.has(h.wiki)){srcList.unshift(["War Thunder Wiki · "+v.name,h.wiki]);haveUrl.add(h.wiki);}
+  for(const x of h?.src||[])if(!haveUrl.has(x[1])){srcList.push(x);haveUrl.add(x[1]);}
+  for(const [title,url] of srcList){const a=document.createElement("a");a.href=url;a.textContent=title;a.target="_blank";a.rel="noopener noreferrer";sources.append(a)}
+  for(const option of $("surface").options)option.textContent=v.surfaceLabels?.[option.value]||({front:"Front",side:"Side",rear:"Rear",turret:"Turret"}[option.value]);
+ initMedia();renderArmor();renderShells();
+}
+function effective(t,deg){return Math.round(t/Math.max(.2,Math.cos(deg*Math.PI/180)))}
+function renderArmor(){
+ const v=current(),s=$("surface").value,a=+$("angle").value,t=v.armor[s],los=effective(t,a);
+ $("angleVal").textContent=a+"°";
+  if(!Number.isFinite(t)||t<=0){
+   $("armorGrid").innerHTML=[["NOMINAL","Unverified"],["ANGLE",a+"°"],["LOS PATH","—"],["ZONE",v.surfaceLabels?.[s]||s.toUpperCase()]].map(x=>`<div class="armor"><span>${x[0]}</span><b>${x[1]}</b></div>`).join("");
+   $("armorNote").textContent=(v.armorSummary||"Verified thickness is unavailable for this plate and configuration.")+" No geometric protection value is calculated from an unknown thickness.";return;
+  }
+
+ $("armorGrid").innerHTML=[["NOMINAL",t+" mm"],["ANGLE",a+"°"],["LOS PATH",los+" mm"],["ZONE",v.surfaceLabels?.[s]||s.toUpperCase()]].map(x=>`<div class="armor"><span>${x[0]}</span><b>${x[1]}</b></div>`).join("");
+ $("armorNote").textContent=`Selected ${v.surfaceLabels?.[s]||s} plate: ${t} mm nominal. At ${a}° obliquity the simplified geometric path is about ${los} mm. This is a geometric visualization aid, not equivalent armour protection. Plate geometry, material, spaced armour, projectile behaviour and impact point affect the result.`;
+}
+function renderShells(){
+ const v=current(),idx=+$("shell").value||0,range=+$("range").value;
+ const map={10:0,500:2,1000:3,2000:3},ri=map[range],s=$("surface").value,a=+$("angle").value;
+  if(v.dataBasis||!Number.isFinite(v.armor[s])){
+   $("shellTable").innerHTML='<tr><td colspan="5">No verified War Thunder protection comparison is supplied for this historical configuration.</td></tr>';return;
+  }
+  const los=effective(v.armor[s],a);
+ $("shellTable").innerHTML=enemies.map((e,i)=>{
+   const pen=e[2][ri], result=pen<los?"STOPPED":pen>=los*1.15?"PENETRATES":"ANGLE-SENSITIVE";
+   const cls=result==="STOPPED"?"ok":result==="PENETRATES"?"bad":"warn";
+   return `<tr><td>${e[0]}</td><td>${pen} mm</td><td>${los} mm</td><td class="${cls}"><b>${result}</b></td><td>${pen<los?`Nominal penetration is below the calculated LOS path.`:`Penetration reaches/exceeds the calculated LOS path.`}</td></tr>`;
+ }).join("");
+}
+$("surface").onchange=()=>{renderArmor();renderShells()};$("angle").oninput=()=>{renderArmor();renderShells()};$("shell").onchange=renderShells;$("range").onchange=renderShells;
+$("theme").onclick=()=>{document.documentElement.classList.toggle("light");const light=document.documentElement.classList.contains("light");$("theme").textContent=light?"Dark theme":"Light theme"; DB.record("theme",light?"light":"dark"); DB.saveTheme(light)};
+
+/* ---------- LOCAL INDEXEDDB MEDIA + PREFERENCE DATABASE ---------- */
+const DB_NAME="ArmoredArchiveDB", DB_VERSION=3;
+const DB={db:null,urls:new Map(),profile:{},async open(){
+ return new Promise((resolve,reject)=>{const q=indexedDB.open(DB_NAME,DB_VERSION);
+ q.onupgradeneeded=e=>{const d=e.target.result;if(!d.objectStoreNames.contains("videos")){const st=d.createObjectStore("videos",{keyPath:"id"});st.createIndex("shell","shell",{unique:false})}if(!d.objectStoreNames.contains("preferences"))d.createObjectStore("preferences",{keyPath:"key"});if(!d.objectStoreNames.contains("events"))d.createObjectStore("events",{keyPath:"id",autoIncrement:true})};
+ q.onsuccess=()=>{this.db=q.result;resolve(this.db)};q.onerror=()=>reject(q.error)})},
+ tx(store,mode="readonly"){return this.db.transaction(store,mode).objectStore(store)},
+ get(store,key){return new Promise((res,rej)=>{const q=this.tx(store).get(key);q.onsuccess=()=>res(q.result);q.onerror=()=>rej(q.error)})},
+ put(store,v){return new Promise((res,rej)=>{const q=this.tx(store,"readwrite").put(v);q.onsuccess=()=>res(q.result);q.onerror=()=>rej(q.error)})},
+ all(store){return new Promise((res,rej)=>{const q=this.tx(store).getAll();q.onsuccess=()=>res(q.result||[]);q.onerror=()=>rej(q.error)})},
+ async record(type,value,extra={}){if(!this.db)return;await this.put("events",{type,value,...extra,ts:Date.now()});let p=await this.get("preferences","profile")||{key:"profile",themes:{light:0,dark:0},tanks:{},families:{},nations:{},roles:{},shells:{},lastTank:"",lastFamily:"",lastNation:"",lastRole:"",lastShell:""};
+ if(type==="tank"){p.tanks[value]=(p.tanks[value]||0)+1;p.lastTank=value;p.lastFamily=extra.family||families[family]?.label||family;p.families[family]=(p.families[family]||0)+1;p.lastNation=extra.nation||current().nation;p.nations[p.lastNation]=(p.nations[p.lastNation]||0)+1;p.lastRole=extra.role||current().role;p.roles[p.lastRole]=(p.roles[p.lastRole]||0)+1}
+ if(type==="shell")p.shells[value]=(p.shells[value]||0)+1,p.lastShell=value;
+ if(type==="theme")p.themes[value]=(p.themes[value]||0)+1;
+ await this.put("preferences",p);this.profile=p;},
+ async saveTheme(light){const p=await this.get("preferences","settings")||{key:"settings"};p.theme=light?"light":"dark";await this.put("preferences",p)},
+ async load(){this.profile=await this.get("preferences","profile")||{key:"profile",themes:{light:0,dark:0},tanks:{},families:{},nations:{},roles:{},shells:{},lastTank:"",lastFamily:"",lastNation:"",lastRole:"",lastShell:""};const st=await this.get("preferences","settings");const l=this.profile.themes?.light||0,d=this.profile.themes?.dark||0;const preferred=(l+d>=3)?(l>d?"light":"dark"):(st?.theme||"dark");if(preferred==="light"){document.documentElement.classList.add("light");$("theme").textContent="Dark theme"}},
+ async media(){return this.all("videos")},
+ async resetMemoryUrls(){this.urls.forEach(u=>URL.revokeObjectURL(u));this.urls.clear()}
+};
+
+function renderDbShells(){}
+
+/* Native decode capability probe. Browsers choose CPU/iGPU/dGPU; no web API can force CUDA for <video>. */
+(async()=>{try{
+ const mc=navigator.mediaCapabilities;
+ if(!mc?.decodingInfo)return;
+ const info=await mc.decodingInfo({type:"file",video:{contentType:'video/mp4; codecs="avc1.640028"',width:1920,height:1080,bitrate:8000000,framerate:50}});
+ window.__ARMORED_DECODE_CAPS__={supported:!!info.supported,powerEfficient:!!info.powerEfficient,smooth:!!info.smooth};
+}catch(e){}})();
+
+// Database initialization is intentionally silent. It stores media and preferences locally,
+// but exposes no database controls, diagnostics, profile counters, or storage UI.
+(async()=>{try{await DB.open();await DB.load();}catch(e){console.warn("Armored Archive local database unavailable; using bundled media fallback.",e)}})();
+
+// Track the content the visitor actually uses without exposing the storage layer.
+const oldRenderAll=renderAll;
+const ROLE_NOTES={
+light:['Light tank / reconnaissance','WW2: scouting, screening and liaison — speed and small size over armour.','Today: reconnaissance vehicles and light fire-support vehicles, where sensors and mobility matter more than the gun.'],
+medium:['Medium tank','WW2: the all-round battle tank — a balance of gun, armour and mobility, built in large numbers.','After 1945 the medium tank grew into the main battle tank.'],
+heavy:['Heavy tank','WW2: breakthrough tanks with the thickest armour and largest guns — slow, costly and few in number.','The class faded out in the 1960s, once main battle tanks matched its firepower and protection.'],
+mbt:['Main battle tank','From the 1960s: one tank replaced both medium and heavy, combining heavy-tank firepower with medium-tank mobility.','Modern MBTs add composite armour, stabilised guns, thermal sights and active protection.'],
+td:['Tank destroyer','WW2: anti-tank guns on tracked chassis, often turretless and low, to ambush tanks cheaply.','After the war guided missiles took over: ATGM carriers first, now missiles on infantry and light vehicles.'],
+spaa:['Anti-aircraft (SPAA)','WW2: automatic cannon on half-tracks or tank chassis, defending against low-flying aircraft.','Radar-directed guns followed; today missile systems and counter-drone guns do the job.'],
+ifv:['Infantry fighting vehicle','Postwar: carries an infantry squad and fights alongside tanks with a cannon and often missiles.','It grew out of WW2 half-tracks, which only carried troops.']};
+function roleKey(r){r=String(r||'').toLowerCase();return /spaa|anti-air/.test(r)?'spaa':/ifv/.test(r)?'ifv':/mbt|main battle/.test(r)?'mbt':/heavy tank/.test(r)?'heavy':/medium/.test(r)?'medium':/destroyer|atgm|weapon carrier/.test(r)?'td':/light|recon|armoured car|airborne/.test(r)?'light':null;}
+function renderRoleNote(v){const el=$("roleNote");if(!el)return;const k=roleKey(v.role);const n=ROLE_NOTES[k];if(!n){el.innerHTML='';return;}
+ el.innerHTML=`<div class="sectionTitle">Role: ${n[0]}</div><p>${n[1]}</p><p>${n[2]}</p><details><summary>All roles, WW2 to today</summary>${Object.entries(ROLE_NOTES).map(([key,x])=>`<p${key===k?' class="on"':''}><b>${x[0]}.</b> ${x[1]} ${x[2]}</p>`).join('')}</details>`;}
+// era flag beside the vehicle name: own SVG drawings (no game files). Before 1935 (Reichswehr, designs begun under the Weimar
+// Republic) → Weimar black-red-gold; 1935–1945 → wartime Balkenkreuz as used for Germany in War Thunder; after 1945 → Federal Republic.
+const TRI='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 3"><rect width="5" height="1" fill="#000"/><rect y="1" width="5" height="1" fill="#D00"/><rect y="2" width="5" height="1" fill="#FFCE00"/></svg>';
+const CROSS='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 20"><rect width="30" height="20" fill="#5b6157"/><path d="M12 2h6v5h5v6h-5v5h-6v-5H7V7h5z" fill="#fff"/><path d="M13.5 3.5h3v5h5v3h-5v5h-3v-5h-5v-3h5z" fill="#000"/></svg>';
+const ERA_FLAGS={interwar:[TRI,'Weimar Republic / Reichswehr era (before 1935)'],ww2:[CROSS,'Germany, Second World War (1935–1945)'],post:[TRI,'Federal Republic of Germany (1949–today)']};
+function vehicleEra(){const h=window.VEHICLE_HISTORY?.[family+':'+variant];const m=String(h?.prod||'').match(/19\d\d|20\d\d/);
+ if(m){const y=+m[0];return y<1935?'interwar':y<=1945?'ww2':'post';}
+ return /^(proto_ww2|proto_early|flak_early|halftracks|sdkfz_light|stug|iv|tiger|panther|czech|ferdinand|jagdpanzer|kanonen)/.test(family)?'ww2':'post';}
+function renderEraFlag(){const el=$("heroEyebrow");if(!el)return;const [svg,label]=ERA_FLAGS[vehicleEra()];
+ el.insertAdjacentHTML('afterbegin',`<img class="eraFlag" alt="" title="${label}" src="data:image/svg+xml,${encodeURIComponent(svg)}"><span class="eraLabel">${label}</span> · `);}
+renderAll=function(){oldRenderAll();const v=current();renderRoleNote(v);renderEraFlag();if(window.DB)DB.record("tank",v.name,{family:families[family]?.label||family,nation:v.nation||"Unknown",role:v.role||"Unknown"})};
+
+</script>
+<script src="ammo_details.js?v=20261012-pa41"></script>
+<script src="combat_ui.js?v=20261012-pa41"></script>
+<script src="mesh_data.js?v=20261012-pa41"></script>
+<script src="mesh_armor.js?v=20261012-pa41"></script>
+<script src="pa_data.js?v=20261012-pa41"></script>
+<script src="pa_data_opponents.js?v=20261012-pa41"></script>
+<script src="pa_engine.js?v=20261012-pa41"></script>
+<script src="pa_figures.js?v=20261012-pa41"></script>
+<script src="pa_view.js?v=20261012-pa41"></script>
+<script src="pa_xray_info.js?v=20261012-pa41"></script>
+<script src="pa_ui.js?v=20261012-pa41"></script>
+<script src="pa_gamemodel.js?v=20261012-pa41"></script>
+<script src="pa_pt.js?v=20261012-pa41"></script>
+<script src="gallery_matching.js?v=20261012-pa41"></script>
+<script src="real_photos.js?v=20261012-pa41"></script>
+<script>
+$('vehicleSearch').oninput=renderFamilies;
+document.querySelectorAll('[data-collection]').forEach(b=>b.onclick=()=>{
+ const section=b.dataset.collection;$('vehicleSearch').value='';
+ const entry=Object.entries(families).sort(([a],[b])=>(FAMILY_FIRST_SERVICE[a]??9999)-(FAMILY_FIRST_SERVICE[b]??9999)).find(([k,f])=>f.variants.some(v=>(v.collection||'production')===section));
+ family=entry[0];variant=entry[1].variants.find(v=>(v.collection||'production')===section).id;renderAll();
+});
+const requestedVehicle=new URLSearchParams(location.search).get('vehicle');
+if(requestedVehicle){const [requestedFamily,requestedVariant]=requestedVehicle.split(':');if(families[requestedFamily]?.variants.some(v=>v.id===requestedVariant)){family=requestedFamily;variant=requestedVariant;}}
+const requestedSurface=new URLSearchParams(location.search).get('surface');
+if(['front','side','rear','turret'].includes(requestedSurface))$('surface').value=requestedSurface;
+renderAll();</script>
+<script src="display_policy.js?v=20261012-pa41"></script>
+<script src="video_frames.js?v=20261012-pa41"></script>
+<script src="display_hdr.js?v=20261012-pa41"></script>
+</body></html>
